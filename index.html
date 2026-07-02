@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Référencement des directives ESTI</title>
+<style>
+  :root{
+    --rouge:#dc0018;
+    --rouge-fonce:#a30012;
+    --fond:#f4f5f7;
+    --carte:#ffffff;
+    --texte:#1c1f26;
+    --texte-doux:#5b6470;
+    --bord:#e3e6ea;
+    --surlignage:#ffe27a;
+    --ombre:0 1px 3px rgba(16,24,40,.08),0 6px 16px rgba(16,24,40,.06);
+    --ombre-hover:0 8px 28px rgba(16,24,40,.14);
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
+    background:var(--fond);color:var(--texte);line-height:1.5;
+  }
+  header{
+    background:linear-gradient(135deg,var(--rouge),var(--rouge-fonce));
+    color:#fff;padding:38px 20px 30px;text-align:center;
+  }
+  header .badge{
+    display:inline-flex;align-items:center;gap:10px;
+    background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);
+    padding:6px 14px;border-radius:999px;font-size:13px;font-weight:600;letter-spacing:.5px;
+    margin-bottom:14px;
+  }
+  header h1{margin:0 0 8px;font-size:30px;font-weight:800;letter-spacing:-.5px}
+  header p{margin:0 auto;max-width:640px;opacity:.92;font-size:15px}
+  .statut{
+    display:flex;flex-wrap:wrap;justify-content:center;gap:10px 22px;margin:18px auto 0;
+    font-size:13.5px;
+  }
+  .statut span{
+    display:inline-flex;align-items:center;gap:7px;
+    background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);
+    padding:7px 14px;border-radius:999px;
+  }
+  .statut b{font-weight:700}
+
+  .barre-recherche{
+    position:sticky;top:0;z-index:20;
+    background:rgba(244,245,247,.92);backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--bord);
+    padding:16px 20px;
+  }
+  .recherche-wrap{max-width:1100px;margin:0 auto;position:relative}
+  #recherche{
+    width:100%;padding:14px 46px 14px 46px;font-size:16px;
+    border:2px solid var(--bord);border-radius:12px;background:#fff;
+    transition:border-color .15s,box-shadow .15s;
+  }
+  #recherche:focus{outline:none;border-color:var(--rouge);box-shadow:0 0 0 4px rgba(220,0,24,.12)}
+  .loupe{position:absolute;left:16px;top:50%;transform:translateY(-50%);color:var(--texte-doux)}
+  #effacer{
+    position:absolute;right:12px;top:50%;transform:translateY(-50%);
+    border:none;background:var(--bord);color:var(--texte-doux);cursor:pointer;
+    width:26px;height:26px;border-radius:50%;font-size:15px;display:none;line-height:1;
+  }
+  #effacer:hover{background:#d3d7dd}
+  .compteur{max-width:1100px;margin:10px auto 0;font-size:13px;color:var(--texte-doux)}
+
+  .tags{max-width:1100px;margin:12px auto 0;display:flex;flex-wrap:wrap;gap:8px}
+  .tag{
+    border:1px solid var(--bord);background:#fff;color:var(--texte-doux);
+    padding:5px 12px;border-radius:999px;font-size:13px;cursor:pointer;transition:all .12s;
+  }
+  .tag:hover{border-color:var(--rouge);color:var(--rouge)}
+  .tag.actif{background:var(--rouge);border-color:var(--rouge);color:#fff}
+
+  main{max-width:1100px;margin:0 auto;padding:26px 20px 60px}
+  .grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
+
+  .carte{
+    background:var(--carte);border:1px solid var(--bord);border-radius:16px;
+    padding:22px 20px 20px;display:flex;flex-direction:column;
+    box-shadow:var(--ombre);transition:transform .16s,box-shadow .16s;
+  }
+  .carte:hover{transform:translateY(-4px);box-shadow:var(--ombre-hover)}
+  .icone{
+    width:84px;height:84px;border-radius:20px;
+    background:linear-gradient(135deg,#f9fafb,#eef1f5);
+    border:1px solid var(--bord);
+    display:flex;align-items:center;justify-content:center;margin-bottom:16px;flex:none;
+    box-shadow:inset 0 1px 2px rgba(255,255,255,.8);
+  }
+  .icone svg{width:58px;height:58px;display:block}
+  .num{font-size:12px;font-weight:700;color:var(--rouge);letter-spacing:.6px;text-transform:uppercase}
+  .titre{font-size:17px;font-weight:700;margin:4px 0 10px}
+  .mots{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+  .mot{font-size:11px;background:#f0f2f5;color:var(--texte-doux);padding:3px 8px;border-radius:6px}
+  .bouton{
+    margin-top:auto;display:inline-flex;align-items:center;justify-content:center;gap:8px;
+    background:var(--rouge);color:#fff;text-decoration:none;font-weight:700;font-size:15px;
+    padding:12px 16px;border-radius:10px;transition:background .14s;
+  }
+  .bouton:hover{background:var(--rouge-fonce)}
+  .bouton svg{width:17px;height:17px}
+
+  mark{background:var(--surlignage);color:inherit;padding:0 2px;border-radius:3px}
+  .vide{text-align:center;color:var(--texte-doux);padding:60px 20px;font-size:16px}
+
+  footer{text-align:center;padding:24px;color:var(--texte-doux);font-size:13px;border-top:1px solid var(--bord)}
+  footer a{color:var(--rouge)}
+</style>
+</head>
+<body>
+<header>
+  <div class="badge">⚡ ESTI · Inspection fédérale des installations à courant fort</div>
+  <h1>Référencement des directives ESTI</h1>
+  <p>Retrouvez rapidement chaque directive grâce à son icône thématique et à la recherche par mots-clés, puis accédez au document officiel.</p>
+  <div class="statut">
+    <span>🔄 Dernière vérification&nbsp;: <b id="lastCheck">—</b></span>
+    <span>📅 Prochaine vérification&nbsp;: <b id="nextCheck">—</b></span>
+  </div>
+</header>
+
+<div class="barre-recherche">
+  <div class="recherche-wrap">
+    <svg class="loupe" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input id="recherche" type="text" placeholder="Rechercher : éclairage, station-service, bateau, séisme, haute tension, conduites…" autocomplete="off">
+    <button id="effacer" title="Effacer">✕</button>
+  </div>
+  <div class="tags" id="tags"></div>
+  <div class="compteur" id="compteur"></div>
+</div>
+
+<main>
+  <div class="grille" id="grille"></div>
+  <div class="vide" id="vide" style="display:none">Aucune directive ne correspond à votre recherche.</div>
+</main>
+
+<footer>
+  Source officielle&nbsp;:
+  <a href="https://www.esti.admin.ch/fr/documentation/directives-esti/directives-esti" target="_blank" rel="noopener">esti.admin.ch — Directives ESTI</a><br>
+  Site de référencement non officiel · Les documents renvoient vers le site de l'ESTI.
+</footer>
+
+<script>
+const BASE = "https://www.esti.admin.ch";
+
+/* Icônes SVG détaillées et colorées (viewBox 0 0 64 64) */
+const ICONES = {
+  document:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect x="12" y="7" width="30" height="44" rx="4" fill="#fff" stroke="#6b7280" stroke-width="2.5"/><line x1="18" y1="17" x2="36" y2="17" stroke="#9ca3af" stroke-width="2.6" stroke-linecap="round"/><line x1="18" y1="25" x2="36" y2="25" stroke="#9ca3af" stroke-width="2.6" stroke-linecap="round"/><line x1="18" y1="33" x2="30" y2="33" stroke="#9ca3af" stroke-width="2.6" stroke-linecap="round"/><circle cx="40" cy="42" r="11" fill="#fff" stroke="#dc0018" stroke-width="3.2"/><line x1="48" y1="50" x2="57" y2="59" stroke="#dc0018" stroke-width="4.5" stroke-linecap="round"/></svg>',
+  courant_faible:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><path d="M32 56 L23 22 h18 z" fill="#e5e7eb" stroke="#6b7280" stroke-width="2.5" stroke-linejoin="round"/><line x1="20" y1="32" x2="44" y2="32" stroke="#6b7280" stroke-width="2.5"/><line x1="23" y1="44" x2="41" y2="44" stroke="#6b7280" stroke-width="2.5"/><rect x="28" y="14" width="8" height="9" rx="1.5" fill="#dc0018"/><path d="M42 10 q9 9 0 20" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/><path d="M48 5 q15 14 0 30" fill="none" stroke="#60a5fa" stroke-width="3" stroke-linecap="round"/></svg>',
+  centrale:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><circle cx="46" cy="16" r="8" fill="#fbbf24"/><g stroke="#fbbf24" stroke-width="2.6" stroke-linecap="round"><line x1="46" y1="3" x2="46" y2="6"/><line x1="46" y1="26" x2="46" y2="29"/><line x1="33" y1="16" x2="36" y2="16"/><line x1="56" y1="16" x2="59" y2="16"/><line x1="37" y1="7" x2="39" y2="9"/><line x1="53" y1="23" x2="55" y2="25"/><line x1="55" y1="7" x2="53" y2="9"/><line x1="39" y1="23" x2="37" y2="25"/></g><path d="M10 54 L17 33 h24 l7 21 z" fill="#2563eb" stroke="#1e3a8a" stroke-width="2.2" stroke-linejoin="round"/><path d="M19 33 l-2 21 M28 33 l-1 21 M37 33 l2 21 M14 43 h33" stroke="#bfdbfe" stroke-width="1.8"/><rect x="26" y="54" width="6" height="6" fill="#6b7280"/></svg>',
+  permis:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect x="11" y="7" width="32" height="46" rx="4" fill="#fff" stroke="#6b7280" stroke-width="2.5"/><line x1="17" y1="17" x2="37" y2="17" stroke="#9ca3af" stroke-width="2.6" stroke-linecap="round"/><line x1="17" y1="25" x2="37" y2="25" stroke="#9ca3af" stroke-width="2.6" stroke-linecap="round"/><line x1="17" y1="33" x2="31" y2="33" stroke="#9ca3af" stroke-width="2.6" stroke-linecap="round"/><circle cx="43" cy="45" r="13" fill="#16a34a"/><path d="M37 45 l4 4 8 -9" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  neutre:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="8" width="24" height="18" rx="3" fill="#e5e7eb" stroke="#6b7280" stroke-width="2.2"/><circle cx="28" cy="17" r="4.5" fill="none" stroke="#f5c518" stroke-width="2.6"/><circle cx="36" cy="17" r="4.5" fill="none" stroke="#f5c518" stroke-width="2.6"/><line x1="32" y1="26" x2="32" y2="34" stroke="#6b7280" stroke-width="3" stroke-linecap="round"/><g stroke="#dc0018" stroke-width="3.2" stroke-linecap="round"><line x1="18" y1="36" x2="46" y2="36"/><line x1="23" y1="44" x2="41" y2="44"/><line x1="28" y1="52" x2="36" y2="52"/></g></svg>',
+  plans:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="11" width="46" height="35" rx="3" fill="#2563eb" stroke="#1e3a8a" stroke-width="2.2"/><path d="M14 19 h14 v9 h-14 z M32 19 h14 M32 25 h10 M14 35 h34 M14 41 h20" stroke="#bfdbfe" stroke-width="2" fill="none" stroke-linecap="round"/><circle cx="47" cy="46" r="12" fill="#16a34a"/><path d="M41 46 l4 4 8 -8" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  ligne_bt:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><path d="M8 6 v46" stroke="#6b7280" stroke-width="3.2" stroke-linecap="round"/><path d="M8 8 h6 M8 16 h6 M8 24 h6" stroke="#6b7280" stroke-width="2.4" stroke-linecap="round"/><path d="M14 18 q14 8 24 7" fill="none" stroke="#f5c518" stroke-width="3" stroke-linecap="round"/><path d="M34 54 v-20 l13 -11 13 11 v20 z" fill="#fca5a5"/><path d="M31 35 l16 -13 16 13" fill="none" stroke="#dc0018" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><rect x="43" y="42" width="8" height="12" fill="#7f1d1d"/></svg>',
+  ligne:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g stroke="#6b7280" stroke-width="2.6" stroke-linecap="round" fill="none"><path d="M22 56 L30 8 M42 56 L34 8"/><path d="M22 56 L34 30 M42 56 L30 30"/><path d="M20 20 h24 M17 31 h30 M14 42 h36"/></g><path d="M20 20 q12 7 24 0" stroke="#f5c518" stroke-width="2.4" fill="none"/><path d="M17 31 q15 8 30 0" stroke="#f5c518" stroke-width="2.4" fill="none"/></svg>',
+  antenne:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><path d="M22 58 L30 20 M42 58 L34 20" stroke="#6b7280" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M21 30 h22 M18 42 h28" stroke="#6b7280" stroke-width="2.6"/><rect x="29" y="14" width="6" height="10" rx="1.5" fill="#dc0018"/><path d="M20 12 q-5 8 0 16" stroke="#2563eb" stroke-width="2.8" fill="none" stroke-linecap="round"/><path d="M44 12 q5 8 0 16" stroke="#2563eb" stroke-width="2.8" fill="none" stroke-linecap="round"/><path d="M14 7 q-9 13 0 26" stroke="#60a5fa" stroke-width="2.8" fill="none" stroke-linecap="round"/><path d="M50 7 q9 13 0 26" stroke="#60a5fa" stroke-width="2.8" fill="none" stroke-linecap="round"/></svg>',
+  lampadaire:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><path d="M28 58 h12 M34 58 V28" stroke="#6b7280" stroke-width="3.6" stroke-linecap="round"/><path d="M34 28 q0 -12 13 -12" fill="none" stroke="#6b7280" stroke-width="3.6" stroke-linecap="round"/><path d="M40 15 h16 l-4 9 h-8 z" fill="#374151"/><ellipse cx="48" cy="26" rx="10" ry="3.5" fill="#fde68a"/><g stroke="#fbbf24" stroke-width="2.4" stroke-linecap="round"><line x1="48" y1="30" x2="42" y2="42"/><line x1="48" y1="30" x2="48" y2="44"/><line x1="48" y1="30" x2="54" y2="42"/></g></svg>',
+  travail_hauteur:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><line x1="5" y1="14" x2="59" y2="22" stroke="#6b7280" stroke-width="3.2" stroke-linecap="round"/><circle cx="30" cy="30" r="6" fill="#fcd34d"/><path d="M23 30 a7 7 0 0 1 14 0 z" fill="#f59e0b"/><path d="M30 36 v13 M30 40 l-8 4 M30 40 l8 4 M30 49 l-6 9 M30 49 l6 9" stroke="#1c1f26" stroke-width="3.2" stroke-linecap="round" fill="none"/><line x1="41" y1="20" x2="30" y2="36" stroke="#dc0018" stroke-width="2.2" stroke-dasharray="3 2.5"/></svg>',
+  poteau_bois:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect x="27" y="4" width="9" height="56" rx="2.5" fill="#b45309"/><rect x="27" y="4" width="4" height="56" rx="2" fill="#d97706"/><path d="M27 18 h9 M27 30 h9 M27 42 h9" stroke="#7c4a03" stroke-width="1.6"/><path d="M18 12 h27 M20 22 h23" stroke="#6b7280" stroke-width="2.6" stroke-linecap="round"/><path d="M12 12 v-3 M22 22 v-3" stroke="#6b7280" stroke-width="2.6" stroke-linecap="round"/><path d="M36 34 l10 5 M36 46 l10 5" stroke="#374151" stroke-width="3.2" stroke-linecap="round"/></svg>',
+  manoeuvre:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect x="13" y="8" width="38" height="48" rx="5" fill="#e5e7eb" stroke="#6b7280" stroke-width="2.4"/><circle cx="24" cy="21" r="6" fill="#16a34a"/><circle cx="24" cy="43" r="6" fill="#dc0018"/><rect x="35" y="15" width="10" height="34" rx="5" fill="#374151"/><rect x="37.5" y="18" width="5" height="15" rx="2.5" fill="#f5c518"/></svg>',
+  seisme:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect x="21" y="8" width="22" height="32" rx="1.5" fill="#93c5fd" stroke="#1e3a8a" stroke-width="2.2"/><g fill="#1e3a8a"><rect x="26" y="14" width="4" height="4"/><rect x="34" y="14" width="4" height="4"/><rect x="26" y="22" width="4" height="4"/><rect x="34" y="22" width="4" height="4"/><rect x="26" y="30" width="4" height="4"/><rect x="34" y="30" width="4" height="4"/></g><path d="M5 50 h8 l4 -9 5 16 5 -22 5 15 4 -9 h13" fill="none" stroke="#dc0018" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  conduites:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect x="5" y="42" width="54" height="13" rx="3" fill="#9ca3af" stroke="#4b5563" stroke-width="2.2"/><line x1="12" y1="48" x2="52" y2="48" stroke="#d1d5db" stroke-width="2"/><path d="M28 5 l-8 17 h8 l-8 17" fill="none" stroke="#f5c518" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M47 14 v22" stroke="#dc0018" stroke-width="2.6"/><path d="M43 18 l4 -4 4 4 M43 32 l4 4 4 -4" fill="none" stroke="#dc0018" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  autoroute:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><path d="M10 58 L24 10 h11 L49 58 z" fill="#4b5563"/><path d="M29 16 v5 M29 27 v5 M29 38 v5 M29 49 v5" stroke="#fde68a" stroke-width="3.2" stroke-linecap="round"/><g stroke="#dc0018" stroke-width="2.6" fill="none" stroke-linecap="round"><path d="M48 44 L52 6 M60 44 L56 6"/><path d="M47 15 h16 M45 24 h18"/></g></svg>',
+  maintenance:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><circle cx="25" cy="25" r="12" fill="none" stroke="#6b7280" stroke-width="4.5"/><g stroke="#6b7280" stroke-width="4.5" stroke-linecap="round"><line x1="25" y1="7" x2="25" y2="11"/><line x1="25" y1="39" x2="25" y2="43"/><line x1="7" y1="25" x2="11" y2="25"/><line x1="39" y1="25" x2="43" y2="25"/><line x1="13" y1="13" x2="16" y2="16"/><line x1="34" y1="34" x2="37" y2="37"/><line x1="37" y1="13" x2="34" y2="16"/><line x1="16" y1="34" x2="13" y2="37"/></g><circle cx="25" cy="25" r="4.5" fill="#eef1f5"/><path d="M40 40 l16 16" stroke="#f5c518" stroke-width="6" stroke-linecap="round"/><path d="M37 33 a7 7 0 0 0 9 9 z" fill="#dc0018"/></svg>',
+  ouvrier:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="19" r="7" fill="#fcd34d"/><path d="M15 19 a9 9 0 0 1 18 0 z" fill="#f59e0b"/><rect x="21" y="9" width="6" height="4" rx="1.5" fill="#dc0018"/><path d="M24 26 v15 M24 30 l-9 5 M24 30 l9 5 M24 41 l-7 13 M24 41 l7 13" stroke="#1c1f26" stroke-width="3.6" stroke-linecap="round" fill="none"/><path d="M50 6 l-9 18 h8 l-7 18" fill="none" stroke="#dc0018" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  cuve:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><ellipse cx="26" cy="18" rx="16" ry="5" fill="#e5e7eb" stroke="#6b7280" stroke-width="2.2"/><path d="M10 18 v30 a16 5 0 0 0 32 0 V18" fill="#d1d5db" stroke="#6b7280" stroke-width="2.2"/><line x1="10" y1="30" x2="42" y2="30" stroke="#9ca3af" stroke-width="1.8"/><line x1="10" y1="40" x2="42" y2="40" stroke="#9ca3af" stroke-width="1.8"/><path d="M50 56 c-7 0 -11 -7 -6 -14 c1 5 3 5 3 5 c-1 -7 3 -11 7 -14 c-1 7 7 9 4 18 c-1 5 -5 5 -8 5z" fill="#f97316"/><path d="M50 52 c-3 0 -5 -3 -3 -6 c1 2 2 2 2 2 c0 -3 2 -5 4 -6 c-1 3 3 4 1 8 c0 2 -2 2 -4 2z" fill="#fbbf24"/></svg>',
+  pipeline:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="30" width="56" height="15" rx="4" fill="#60a5fa" stroke="#1e3a8a" stroke-width="2.2"/><rect x="4" y="30" width="56" height="5" rx="2" fill="#93c5fd"/><circle cx="16" cy="37" r="2.6" fill="#1e3a8a"/><circle cx="48" cy="37" r="2.6" fill="#1e3a8a"/><line x1="32" y1="30" x2="32" y2="14" stroke="#6b7280" stroke-width="3.2"/><circle cx="32" cy="12" r="8" fill="none" stroke="#6b7280" stroke-width="3.2"/><path d="M24 12 h16 M32 4 v16" stroke="#6b7280" stroke-width="2.4"/><path d="M22 45 l-6 13" stroke="#f5c518" stroke-width="3.4" fill="none" stroke-linecap="round"/></svg>',
+  abri:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><path d="M9 54 V27 L32 10 L55 27 v27 z" fill="#cbd5e1" stroke="#475569" stroke-width="2.4" stroke-linejoin="round"/><rect x="26" y="40" width="12" height="14" fill="#475569"/><path d="M32 20 l11 18 H21 z" fill="#f97316" stroke="#c2410c" stroke-width="1.6" stroke-linejoin="round"/><path d="M32 27 v6 M32 35 v.5" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg>',
+  eau:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="24" fill="#dbeafe" stroke="#1e40af" stroke-width="2.6"/><circle cx="32" cy="32" r="15" fill="none" stroke="#60a5fa" stroke-width="2.2"/><circle cx="32" cy="32" r="7" fill="#93c5fd"/><line x1="9" y1="32" x2="55" y2="32" stroke="#1e40af" stroke-width="3.2"/><circle cx="32" cy="32" r="3.2" fill="#1e40af"/><path d="M22 45 q10 -5 20 0" stroke="#2563eb" stroke-width="2" fill="none"/></svg>',
+  essence:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><path d="M12 56 V16 a4 4 0 0 1 4 -4 h14 a4 4 0 0 1 4 4 v40 z" fill="#dc0018"/><rect x="16" y="19" width="14" height="11" rx="2" fill="#fff"/><circle cx="23" cy="43" r="4" fill="#fca5a5"/><path d="M10 56 h30" stroke="#7f1d1d" stroke-width="3.2" stroke-linecap="round"/><path d="M34 26 h6 a4 4 0 0 1 4 4 v17 a4 4 0 0 0 8 0 V24 l-6 -6" fill="none" stroke="#6b7280" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  bateau:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><path d="M6 40 h46 l-8 15 H14 z" fill="#dc0018" stroke="#7f1d1d" stroke-width="2.2" stroke-linejoin="round"/><path d="M19 40 V21 h7 l15 19 z" fill="#e5e7eb" stroke="#6b7280" stroke-width="2.2" stroke-linejoin="round"/><rect x="23" y="26" width="5" height="5" fill="#60a5fa"/><g stroke="#f5c518" stroke-width="2.8" fill="none" stroke-linecap="round"><path d="M52 16 v6 M46 16 v6"/><path d="M43 22 h12 v4 a6 6 0 0 1 -12 0 z"/><path d="M49 32 v7"/></g></svg>',
+  enceinte:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><path d="M17 12 a15 15 0 0 1 30 0 v30 a15 15 0 0 1 -30 0 z" fill="#d1d5db" stroke="#6b7280" stroke-width="2.6"/><path d="M17 12 a15 6 0 0 0 30 0" fill="none" stroke="#6b7280" stroke-width="2.4"/><circle cx="32" cy="26" r="5" fill="#f59e0b"/><path d="M32 31 v11 M32 34 l-6 4 M32 34 l6 4 M32 42 l-4 9 M32 42 l4 9" stroke="#1c1f26" stroke-width="2.8" stroke-linecap="round" fill="none"/></svg>',
+  danger:'<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><path d="M32 6 L59 54 H5 z" fill="#f5c518" stroke="#1c1f26" stroke-width="3.2" stroke-linejoin="round"/><path d="M35 20 l-9 16 h6.5 l-6 14 15 -20 h-6.5 z" fill="#1c1f26"/></svg>'
+};
+
+/* Données de repli (utilisées si data.json est introuvable, ex. aperçu local).
+   En production, data.json — mis à jour par le script Google Apps Script — fait foi. */
+let META = null;
+let DIRECTIVES = [];
+
+const FALLBACK_DIRECTIVES = [
+  {num:"100",ver:"0619",titre:"Termes et définitions techniques, mandats de travail et ordres de manœuvre",url:"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_100_0619_f.pdf",icone:"document",mots:["terminologie","définitions","vocabulaire","mandat de travail","ordre de manœuvre","glossaire","termes techniques"]},
+  {num:"202",ver:"0207",titre:"Installations à courant faible dans les installations d'exploitation à haute tension",url:"/inhalte/pdf/Weisungen/Franzoesisch/202_0207_fr.pdf",icone:"courant_faible",mots:["courant faible","haute tension","télécommunication","signalisation","protection","installations d'exploitation"]},
+  {num:"220",ver:"0621",titre:"Exigences sur les installations de production d'énergie",url:"/inhalte/ESTI_220_0621_FR.pdf",icone:"centrale",mots:["production d'énergie","photovoltaïque","solaire","onduleur","générateur","centrale","couplage réseau","autoproduction"]},
+  {num:"221",ver:"0621",titre:"Obligations d'annoncer en cas d'autorisation générale ou limitée d'installer",url:"/inhalte/ESTI_221_0621_FR.pdf",icone:"permis",mots:["autorisation d'installer","obligation d'annoncer","permis","installateur","annonce","procédure"]},
+  {num:"225",ver:"0824",titre:"Transformation d'installations de point neutre (schéma III)",url:"/inhalte/ESTI_225_0824_FR.pdf",icone:"neutre",mots:["point neutre","mise à la terre","schéma III","transformation","neutre","réseau de distribution"]},
+  {num:"235",ver:"0721",titre:"Procédure d'approbation des plans des installations électriques",url:"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_235_0721_f.pdf",icone:"plans",mots:["approbation des plans","procédure","autorisation","projet","dossier","plans","installations électriques"]},
+  {num:"239",ver:"1006",titre:"Lignes d'amenée aux installations à basse tension",url:"/inhalte/pdf/Weisungen/Franzoesisch/STI_239_1006_f.pdf",icone:"ligne_bt",mots:["ligne d'amenée","basse tension","raccordement","branchement","alimentation"]},
+  {num:"240",ver:"1199",titre:"Commentaires à propos de l'Ordonnance sur les lignes électriques",url:"/inhalte/pdf/Weisungen/Franzoesisch/STI_240_1199_f.pdf",icone:"ligne",mots:["ordonnance sur les lignes électriques","OLEl","lignes électriques","aériennes","souterraines","commentaires","réglementation"]},
+  {num:"243",ver:"0325",titre:"Alimentation électrique d'installations d'antennes sur les supports de lignes à haute tension",url:"/inhalte/ESTI_243_0325_FR.pdf",icone:"antenne",mots:["antenne","téléphonie mobile","support de ligne","pylône","haute tension","alimentation","5G","télécom"]},
+  {num:"244",ver:"1016",titre:"Contrôle et maintenance des installations d'éclairage public",url:"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_244_1016_f.pdf",icone:"lampadaire",mots:["éclairage public","lampadaire","candélabre","luminaire","voirie","maintenance","contrôle","commune"]},
+  {num:"245",ver:"0619",titre:"Travailler en sécurité sur les lignes à grandes portées à haute tension",url:"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_245_0619_f.pdf",icone:"travail_hauteur",mots:["sécurité","grandes portées","haute tension","travaux en hauteur","ligne aérienne","protection travailleurs"]},
+  {num:"246",ver:"0819",titre:"Travail en sécurité sur les lignes courantes avec supports en bois et supports conducteurs",url:"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_246_0819_f.pdf",icone:"poteau_bois",mots:["poteau en bois","support conducteur","sécurité","ligne","montage","grimper","travaux"]},
+  {num:"247",ver:"1012",titre:"Principes pour les manœuvres après déclenchement de lignes à haute tension > 1 kV",url:"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_247_1012_f_download.pdf",icone:"manoeuvre",mots:["manœuvre","déclenchement","réenclenchement","haute tension","1 kV","exploitation","défaut"]},
+  {num:"248",ver:"1220",titre:"Sécurité sismique de la distribution d'énergie électrique en Suisse",url:"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_248_1220_f.pdf",icone:"seisme",mots:["séisme","sismique","tremblement de terre","distribution","résistance","catastrophe","protection"]},
+  {num:"250",ver:"1225",titre:"Distances en cas de proximité d'installations à courant fort avec des installations de transport par conduites",url:"/inhalte/ESTI_250_1225_f.pdf",icone:"conduites",mots:["distances","proximité","courant fort","transport par conduites","gazoduc","pipeline","sécurité"]},
+  {num:"322",ver:"0712",titre:"Établissement d'installations à haute tension le long des routes nationales",url:"/inhalte/pdf/Weisungen/Franzoesisch/322_0712_f.pdf",icone:"autoroute",mots:["routes nationales","autoroute","haute tension","croisement","parallélisme","OFROU"]},
+  {num:"330",ver:"0121",titre:"Conditions pour les travaux de maintenance et de réparation sur les installations à basse tension",url:"/inhalte/ESTI_330_0121_f.pdf",icone:"maintenance",mots:["maintenance","réparation","basse tension","entretien","travaux","conditions","compétences"]},
+  {num:"407",ver:"0526",titre:"Activités sur des installations électriques ou à proximité de celles-ci",url:"/inhalte/ESTI_407_0526_f.pdf",icone:"ouvrier",mots:["travaux électriques","proximité","sécurité","habilitation","personne compétente","EPI","risque électrique","5 règles"]},
+  {num:"503",ver:"0113",titre:"Mesures de protection dans les dépôts de carburant avec installations électriques",url:"/inhalte/pdf/Weisungen/Franzoesisch/503_0113_f.pdf",icone:"cuve",mots:["dépôt de carburant","atmosphère explosive","ATEX","zone Ex","réservoir","protection","incendie"]},
+  {num:"507",ver:"0113",titre:"Mesures de protection électriques dans les installations de transport par conduites",url:"/inhalte/ESTI_507_0113_f_download.pdf",icone:"pipeline",mots:["transport par conduites","pipeline","gazoduc","oléoduc","protection électrique","ATEX","mise à la terre"]},
+  {num:"508",ver:"0326",titre:"Installations électriques dans les constructions de protection civile",url:"",icone:"abri",mots:["protection civile","abri","bunker","construction protégée","ventilation","installations électriques"]},
+  {num:"511",ver:"0712",titre:"Installations électriques dans les stations d'épuration des eaux usées",url:"/inhalte/pdf/Weisungen/Franzoesisch/511_0712_f.pdf",icone:"eau",mots:["station d'épuration","STEP","eaux usées","assainissement","zone humide","atmosphère explosive","gaz"]},
+  {num:"606",ver:"0113",titre:"Installations électriques sûres dans les stations-service",url:"/inhalte/pdf/Weisungen/Franzoesisch/606_0113_f.pdf",icone:"essence",mots:["station-service","station-essence","carburant","pompe","zone Ex","ATEX","distributeur","protection incendie"]},
+  {num:"607",ver:"0824",titre:"Installations électriques des bateaux et raccordements à quai",url:"/inhalte/ESTI_Nr_607_FR.pdf",icone:"bateau",mots:["bateau","navire","port","raccordement à quai","shore power","navigation","borne électrique"]},
+  {num:"608",ver:"0425",titre:"Enceintes conductrices exiguës",url:"/inhalte/ESTI_608_0425_FR.pdf",icone:"enceinte",mots:["enceinte conductrice","espace exigu","espace confiné","cuve","chaudière","très basse tension","sécurité"]},
+  {num:"902",ver:"0106",titre:"Lignes de raccordement à courant faible dans les zones particulièrement dangereuses",url:"/inhalte/pdf/Weisungen/Franzoesisch/STI_902_0106_f.pdf",icone:"danger",mots:["courant faible","zone dangereuse","raccordement","risque","protection","installations spéciales"]}
+];
+
+DIRECTIVES = FALLBACK_DIRECTIVES;
+
+/* Suggestions de mots-clés rapides */
+const SUGGESTIONS = ["haute tension","basse tension","éclairage public","station-service","bateau","séisme","conduites","ATEX / zone Ex","photovoltaïque","maintenance","antenne","approbation des plans"];
+
+const grille=document.getElementById("grille");
+const champ=document.getElementById("recherche");
+const btnEffacer=document.getElementById("effacer");
+const compteur=document.getElementById("compteur");
+const vide=document.getElementById("vide");
+const tagsBox=document.getElementById("tags");
+
+function normalise(s){return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");}
+
+function surligner(texte,termes){
+  if(!termes.length) return texte;
+  let out=texte;
+  termes.forEach(t=>{
+    if(!t) return;
+    const re=new RegExp("("+t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","gi");
+    out=out.replace(re,"<mark>$1</mark>");
+  });
+  return out;
+}
+
+function carteHTML(d,termes){
+  const lien=d.url?BASE+d.url:"";
+  const titreH=surligner(d.titre,termes);
+  const motsH=d.mots.map(m=>`<span class="mot">${surligner(m,termes)}</span>`).join("");
+  const bouton=lien
+    ? `<a class="bouton" href="${lien}" target="_blank" rel="noopener">Ouvrir la directive
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>`
+    : `<a class="bouton" style="background:#9aa2ad;cursor:not-allowed" title="Document non disponible en ligne">Bientôt disponible</a>`;
+  return `<article class="carte">
+    <div class="icone">${ICONES[d.icone]||ICONES.document}</div>
+    <div class="num">ESTI ${d.num} · v.${d.ver}</div>
+    <h2 class="titre">${titreH}</h2>
+    <div class="mots">${motsH}</div>
+    ${bouton}
+  </article>`;
+}
+
+function afficher(){
+  const q=normalise(champ.value.trim());
+  const termes=champ.value.trim().split(/\s+/).filter(Boolean);
+  btnEffacer.style.display=champ.value?"block":"none";
+
+  let liste=DIRECTIVES;
+  if(q){
+    liste=DIRECTIVES.filter(d=>{
+      const foin=normalise(d.num+" "+d.titre+" "+d.mots.join(" "));
+      return q.split(/\s+/).every(mot=>foin.includes(mot));
+    });
+  }
+
+  grille.innerHTML=liste.map(d=>carteHTML(d,termes)).join("");
+  vide.style.display=liste.length?"none":"block";
+  compteur.textContent=q
+    ? `${liste.length} directive(s) trouvée(s) pour « ${champ.value.trim()} »`
+    : `${DIRECTIVES.length} directives référencées`;
+
+  document.querySelectorAll(".tag").forEach(t=>{
+    t.classList.toggle("actif",normalise(t.dataset.mot)===q);
+  });
+}
+
+tagsBox.innerHTML=SUGGESTIONS.map(s=>`<span class="tag" data-mot="${s}">${s}</span>`).join("");
+tagsBox.addEventListener("click",e=>{
+  const t=e.target.closest(".tag");
+  if(!t) return;
+  champ.value = t.classList.contains("actif") ? "" : t.dataset.mot;
+  afficher();champ.focus();
+});
+
+champ.addEventListener("input",afficher);
+btnEffacer.addEventListener("click",()=>{champ.value="";afficher();champ.focus();});
+
+/* Dates de vérification */
+function fmtDate(iso){
+  if(!iso) return "—";
+  const d=new Date(iso);
+  if(isNaN(d)) return "—";
+  return d.toLocaleString("fr-CH",{weekday:"long",day:"2-digit",month:"long",year:"numeric",hour:"2-digit",minute:"2-digit",timeZone:"Europe/Zurich"});
+}
+function majStatut(){
+  document.getElementById("lastCheck").textContent=META&&META.lastCheck?fmtDate(META.lastCheck):"—";
+  document.getElementById("nextCheck").textContent=META&&META.nextCheck?fmtDate(META.nextCheck):"—";
+}
+
+/* Chargement des données live (data.json). Repli sur les données intégrées si indisponible. */
+async function chargerDonnees(){
+  try{
+    const r=await fetch("data.json",{cache:"no-store"});
+    if(r.ok){
+      const j=await r.json();
+      if(Array.isArray(j.directives)&&j.directives.length) DIRECTIVES=j.directives;
+      META=j.meta||null;
+    }
+  }catch(e){/* hors ligne ou aperçu local : on garde le repli */}
+  majStatut();
+  afficher();
+}
+
+chargerDonnees();
+</script>
+</body>
+</html>
