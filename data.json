@@ -1,37 +1,423 @@
 {
   "meta": {
-    "lastCheck": null,
-    "nextCheck": null,
+    "lastCheck": "2026-07-14T06:01:09.176Z",
+    "nextCheck": "2026-07-19T10:00:00.000Z",
     "lastUpdate": null,
     "generator": "esti-check-gs",
     "source": "https://www.esti.admin.ch/fr/documentation/directives-esti/directives-esti"
   },
   "directives": [
-    {"num":"100","ver":"0619","titre":"Termes et définitions techniques, mandats de travail et ordres de manœuvre","url":"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_100_0619_f.pdf","icone":"document","mots":["terminologie","définitions","vocabulaire","mandat de travail","ordre de manœuvre","glossaire","termes techniques"]},
-    {"num":"202","ver":"0207","titre":"Installations à courant faible dans les installations d'exploitation à haute tension","url":"/inhalte/pdf/Weisungen/Franzoesisch/202_0207_fr.pdf","icone":"courant_faible","mots":["courant faible","haute tension","télécommunication","signalisation","protection","installations d'exploitation"]},
-    {"num":"220","ver":"0621","titre":"Exigences sur les installations de production d'énergie","url":"/inhalte/ESTI_220_0621_FR.pdf","icone":"centrale","mots":["production d'énergie","photovoltaïque","solaire","onduleur","générateur","centrale","couplage réseau","autoproduction"]},
-    {"num":"221","ver":"0621","titre":"Obligations d'annoncer en cas d'autorisation générale ou limitée d'installer","url":"/inhalte/ESTI_221_0621_FR.pdf","icone":"permis","mots":["autorisation d'installer","obligation d'annoncer","permis","installateur","annonce","procédure"]},
-    {"num":"225","ver":"0824","titre":"Transformation d'installations de point neutre (schéma III)","url":"/inhalte/ESTI_225_0824_FR.pdf","icone":"neutre","mots":["point neutre","mise à la terre","schéma III","transformation","neutre","réseau de distribution"]},
-    {"num":"235","ver":"0721","titre":"Procédure d'approbation des plans des installations électriques","url":"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_235_0721_f.pdf","icone":"plans","mots":["approbation des plans","procédure","autorisation","projet","dossier","plans","installations électriques"]},
-    {"num":"239","ver":"1006","titre":"Lignes d'amenée aux installations à basse tension","url":"/inhalte/pdf/Weisungen/Franzoesisch/STI_239_1006_f.pdf","icone":"ligne_bt","mots":["ligne d'amenée","basse tension","raccordement","branchement","alimentation"]},
-    {"num":"240","ver":"1199","titre":"Commentaires à propos de l'Ordonnance sur les lignes électriques","url":"/inhalte/pdf/Weisungen/Franzoesisch/STI_240_1199_f.pdf","icone":"ligne","mots":["ordonnance sur les lignes électriques","OLEl","lignes électriques","aériennes","souterraines","commentaires","réglementation"]},
-    {"num":"243","ver":"0325","titre":"Alimentation électrique d'installations d'antennes sur les supports de lignes à haute tension","url":"/inhalte/ESTI_243_0325_FR.pdf","icone":"antenne","mots":["antenne","téléphonie mobile","support de ligne","pylône","haute tension","alimentation","5G","télécom"]},
-    {"num":"244","ver":"1016","titre":"Contrôle et maintenance des installations d'éclairage public","url":"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_244_1016_f.pdf","icone":"lampadaire","mots":["éclairage public","lampadaire","candélabre","luminaire","voirie","maintenance","contrôle","commune"]},
-    {"num":"245","ver":"0619","titre":"Travailler en sécurité sur les lignes à grandes portées à haute tension","url":"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_245_0619_f.pdf","icone":"travail_hauteur","mots":["sécurité","grandes portées","haute tension","travaux en hauteur","ligne aérienne","protection travailleurs"]},
-    {"num":"246","ver":"0819","titre":"Travail en sécurité sur les lignes courantes avec supports en bois et supports conducteurs","url":"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_246_0819_f.pdf","icone":"poteau_bois","mots":["poteau en bois","support conducteur","sécurité","ligne","montage","grimper","travaux"]},
-    {"num":"247","ver":"1012","titre":"Principes pour les manœuvres après déclenchement de lignes à haute tension > 1 kV","url":"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_247_1012_f_download.pdf","icone":"manoeuvre","mots":["manœuvre","déclenchement","réenclenchement","haute tension","1 kV","exploitation","défaut"]},
-    {"num":"248","ver":"1220","titre":"Sécurité sismique de la distribution d'énergie électrique en Suisse","url":"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_248_1220_f.pdf","icone":"seisme","mots":["séisme","sismique","tremblement de terre","distribution","résistance","catastrophe","protection"]},
-    {"num":"250","ver":"1225","titre":"Distances en cas de proximité d'installations à courant fort avec des installations de transport par conduites","url":"/inhalte/ESTI_250_1225_f.pdf","icone":"conduites","mots":["distances","proximité","courant fort","transport par conduites","gazoduc","pipeline","sécurité"]},
-    {"num":"322","ver":"0712","titre":"Établissement d'installations à haute tension le long des routes nationales","url":"/inhalte/pdf/Weisungen/Franzoesisch/322_0712_f.pdf","icone":"autoroute","mots":["routes nationales","autoroute","haute tension","croisement","parallélisme","OFROU"]},
-    {"num":"330","ver":"0121","titre":"Conditions pour les travaux de maintenance et de réparation sur les installations à basse tension","url":"/inhalte/ESTI_330_0121_f.pdf","icone":"maintenance","mots":["maintenance","réparation","basse tension","entretien","travaux","conditions","compétences"]},
-    {"num":"407","ver":"0526","titre":"Activités sur des installations électriques ou à proximité de celles-ci","url":"/inhalte/ESTI_407_0526_f.pdf","icone":"ouvrier","mots":["travaux électriques","proximité","sécurité","habilitation","personne compétente","EPI","risque électrique","5 règles"]},
-    {"num":"503","ver":"0113","titre":"Mesures de protection dans les dépôts de carburant avec installations électriques","url":"/inhalte/pdf/Weisungen/Franzoesisch/503_0113_f.pdf","icone":"cuve","mots":["dépôt de carburant","atmosphère explosive","ATEX","zone Ex","réservoir","protection","incendie"]},
-    {"num":"507","ver":"0113","titre":"Mesures de protection électriques dans les installations de transport par conduites","url":"/inhalte/ESTI_507_0113_f_download.pdf","icone":"pipeline","mots":["transport par conduites","pipeline","gazoduc","oléoduc","protection électrique","ATEX","mise à la terre"]},
-    {"num":"508","ver":"0326","titre":"Installations électriques dans les constructions de protection civile","url":"","icone":"abri","mots":["protection civile","abri","bunker","construction protégée","ventilation","installations électriques"]},
-    {"num":"511","ver":"0712","titre":"Installations électriques dans les stations d'épuration des eaux usées","url":"/inhalte/pdf/Weisungen/Franzoesisch/511_0712_f.pdf","icone":"eau","mots":["station d'épuration","STEP","eaux usées","assainissement","zone humide","atmosphère explosive","gaz"]},
-    {"num":"606","ver":"0113","titre":"Installations électriques sûres dans les stations-service","url":"/inhalte/pdf/Weisungen/Franzoesisch/606_0113_f.pdf","icone":"essence","mots":["station-service","station-essence","carburant","pompe","zone Ex","ATEX","distributeur","protection incendie"]},
-    {"num":"607","ver":"0824","titre":"Installations électriques des bateaux et raccordements à quai","url":"/inhalte/ESTI_Nr_607_FR.pdf","icone":"bateau","mots":["bateau","navire","port","raccordement à quai","shore power","navigation","borne électrique"]},
-    {"num":"608","ver":"0425","titre":"Enceintes conductrices exiguës","url":"/inhalte/ESTI_608_0425_FR.pdf","icone":"enceinte","mots":["enceinte conductrice","espace exigu","espace confiné","cuve","chaudière","très basse tension","sécurité"]},
-    {"num":"902","ver":"0106","titre":"Lignes de raccordement à courant faible dans les zones particulièrement dangereuses","url":"/inhalte/pdf/Weisungen/Franzoesisch/STI_902_0106_f.pdf","icone":"danger","mots":["courant faible","zone dangereuse","raccordement","risque","protection","installations spéciales"]}
+    {
+      "num": "100",
+      "ver": "0619",
+      "titre": "Termes et définitions techniques, mandats de travail et ordres de manœuvre",
+      "url": "/inhalte/pdf/Weisungen/Franzoesisch/ESTI_100_0619_f.pdf",
+      "icone": "document",
+      "mots": [
+        "terminologie",
+        "définitions",
+        "vocabulaire",
+        "mandat de travail",
+        "ordre de manœuvre",
+        "glossaire",
+        "termes techniques"
+      ]
+    },
+    {
+      "num": "202",
+      "ver": "0207",
+      "titre": "Installations à courant faible dans les installations d'exploitation à haute tension",
+      "url": "/inhalte/pdf/Weisungen/Franzoesisch/202_0207_fr.pdf",
+      "icone": "courant_faible",
+      "mots": [
+        "courant faible",
+        "haute tension",
+        "télécommunication",
+        "signalisation",
+        "protection",
+        "installations d'exploitation"
+      ]
+    },
+    {
+      "num": "220",
+      "ver": "0621",
+      "titre": "Exigences sur les installations de production d'énergie",
+      "url": "/inhalte/ESTI_220_0621_FR.pdf",
+      "icone": "centrale",
+      "mots": [
+        "production d'énergie",
+        "photovoltaïque",
+        "solaire",
+        "onduleur",
+        "générateur",
+        "centrale",
+        "couplage réseau",
+        "autoproduction"
+      ]
+    },
+    {
+      "num": "221",
+      "ver": "0621",
+      "titre": "Obligations d'annoncer en cas d'autorisation générale ou limitée d'installer",
+      "url": "/inhalte/ESTI_221_0621_FR.pdf",
+      "icone": "permis",
+      "mots": [
+        "autorisation d'installer",
+        "obligation d'annoncer",
+        "permis",
+        "installateur",
+        "annonce",
+        "procédure"
+      ]
+    },
+    {
+      "num": "225",
+      "ver": "0824",
+      "titre": "Transformation d'installations de point neutre (schéma III)",
+      "url": "/inhalte/ESTI_225_0824_FR.pdf",
+      "icone": "neutre",
+      "mots": [
+        "point neutre",
+        "mise à la terre",
+        "schéma III",
+        "transformation",
+        "neutre",
+        "réseau de distribution"
+      ]
+    },
+    {
+      "num": "235",
+      "ver": "0721",
+      "titre": "Procédure d'approbation des plans des installations électriques",
+      "url": "/inhalte/pdf/Weisungen/Franzoesisch/ESTI_235_0721_f.pdf",
+      "icone": "plans",
+      "mots": [
+        "approbation des plans",
+        "procédure",
+        "autorisation",
+        "projet",
+        "dossier",
+        "plans",
+        "installations électriques"
+      ]
+    },
+    {
+      "num": "239",
+      "ver": "1006",
+      "titre": "Lignes d'amenée aux installations à basse tension",
+      "url": "/inhalte/pdf/Weisungen/Franzoesisch/STI_239_1006_f.pdf",
+      "icone": "ligne_bt",
+      "mots": [
+        "ligne d'amenée",
+        "basse tension",
+        "raccordement",
+        "branchement",
+        "alimentation"
+      ]
+    },
+    {
+      "num": "240",
+      "ver": "1199",
+      "titre": "Commentaires à propos de l'Ordonnance sur les lignes électriques",
+      "url": "/inhalte/pdf/Weisungen/Franzoesisch/STI_240_1199_f.pdf",
+      "icone": "ligne",
+      "mots": [
+        "ordonnance sur les lignes électriques",
+        "OLEl",
+        "lignes électriques",
+        "aériennes",
+        "souterraines",
+        "commentaires",
+        "réglementation"
+      ]
+    },
+    {
+      "num": "243",
+      "ver": "0325",
+      "titre": "Alimentation électrique d'installations d'antennes sur les supports de lignes à haute tension",
+      "url": "/inhalte/ESTI_243_0325_FR.pdf",
+      "icone": "antenne",
+      "mots": [
+        "antenne",
+        "téléphonie mobile",
+        "support de ligne",
+        "pylône",
+        "haute tension",
+        "alimentation",
+        "5G",
+        "télécom"
+      ]
+    },
+    {
+      "num": "244",
+      "ver": "1016",
+      "titre": "Contrôle et maintenance des installations d'éclairage public",
+      "url": "/inhalte/pdf/Weisungen/Franzoesisch/ESTI_244_1016_f.pdf",
+      "icone": "lampadaire",
+      "mots": [
+        "éclairage public",
+        "lampadaire",
+        "candélabre",
+        "luminaire",
+        "voirie",
+        "maintenance",
+        "contrôle",
+        "commune"
+      ]
+    },
+    {
+      "num": "245",
+      "ver": "0619",
+      "titre": "Travailler en sécurité sur les lignes à grandes portées à haute tension",
+      "url": "/inhalte/pdf/Weisungen/Franzoesisch/ESTI_245_0619_f.pdf",
+      "icone": "travail_hauteur",
+      "mots": [
+        "sécurité",
+        "grandes portées",
+        "haute tension",
+        "travaux en hauteur",
+        "ligne aérienne",
+        "protection travailleurs"
+      ]
+    },
+    {
+      "num": "246",
+      "ver": "0819",
+      "titre": "Travail en sécurité sur les lignes courantes avec supports en bois et supports conducteurs",
+      "url": "/inhalte/pdf/Weisungen/Franzoesisch/ESTI_246_0819_f.pdf",
+      "icone": "poteau_bois",
+      "mots": [
+        "poteau en bois",
+        "support conducteur",
+        "sécurité",
+        "ligne",
+        "montage",
+        "grimper",
+        "travaux"
+      ]
+    },
+    {
+      "num": "247",
+      "ver": "1012",
+      "titre": "Principes pour les manœuvres après déclenchement de lignes à haute tension > 1 kV",
+      "url": "/inhalte/pdf/Weisungen/Franzoesisch/ESTI_247_1012_f_download.pdf",
+      "icone": "manoeuvre",
+      "mots": [
+        "manœuvre",
+        "déclenchement",
+        "réenclenchement",
+        "haute tension",
+        "1 kV",
+        "exploitation",
+        "défaut"
+      ]
+    },
+    {
+      "num": "248",
+      "ver": "1220",
+      "titre": "Sécurité sismique de la distribution d'énergie électrique en Suisse",
+      "url": "/inhalte/pdf/Weisungen/Franzoesisch/ESTI_248_1220_f.pdf",
+      "icone": "seisme",
+      "mots": [
+        "séisme",
+        "sismique",
+        "tremblement de terre",
+        "distribution",
+        "résistance",
+        "catastrophe",
+        "protection"
+      ]
+    },
+    {
+      "num": "250",
+      "ver": "1225",
+      "titre": "Distances en cas de proximité d'installations à courant fort avec des installations de transport par conduites",
+      "url": "/inhalte/ESTI_250_1225_f.pdf",
+      "icone": "conduites",
+      "mots": [
+        "distances",
+        "proximité",
+        "courant fort",
+        "transport par conduites",
+        "gazoduc",
+        "pipeline",
+        "sécurité"
+      ]
+    },
+    {
+      "num": "322",
+      "ver": "0712",
+      "titre": "Établissement d'installations à haute tension le long des routes nationales",
+      "url": "/inhalte/pdf/Weisungen/Franzoesisch/322_0712_f.pdf",
+      "icone": "autoroute",
+      "mots": [
+        "routes nationales",
+        "autoroute",
+        "haute tension",
+        "croisement",
+        "parallélisme",
+        "OFROU"
+      ]
+    },
+    {
+      "num": "330",
+      "ver": "0121",
+      "titre": "Conditions pour les travaux de maintenance et de réparation sur les installations à basse tension",
+      "url": "/inhalte/ESTI_330_0121_f.pdf",
+      "icone": "maintenance",
+      "mots": [
+        "maintenance",
+        "réparation",
+        "basse tension",
+        "entretien",
+        "travaux",
+        "conditions",
+        "compétences"
+      ]
+    },
+    {
+      "num": "407",
+      "ver": "0526",
+      "titre": "Activités sur des installations électriques ou à proximité de celles-ci",
+      "url": "/inhalte/ESTI_407_0526_f.pdf",
+      "icone": "ouvrier",
+      "mots": [
+        "travaux électriques",
+        "proximité",
+        "sécurité",
+        "habilitation",
+        "personne compétente",
+        "EPI",
+        "risque électrique",
+        "5 règles"
+      ]
+    },
+    {
+      "num": "503",
+      "ver": "0113",
+      "titre": "Mesures de protection dans les dépôts de carburant avec installations électriques",
+      "url": "/inhalte/pdf/Weisungen/Franzoesisch/503_0113_f.pdf",
+      "icone": "cuve",
+      "mots": [
+        "dépôt de carburant",
+        "atmosphère explosive",
+        "ATEX",
+        "zone Ex",
+        "réservoir",
+        "protection",
+        "incendie"
+      ]
+    },
+    {
+      "num": "507",
+      "ver": "0113",
+      "titre": "Mesures de protection électriques dans les installations de transport par conduites",
+      "url": "/inhalte/ESTI_507_0113_f_download.pdf",
+      "icone": "pipeline",
+      "mots": [
+        "transport par conduites",
+        "pipeline",
+        "gazoduc",
+        "oléoduc",
+        "protection électrique",
+        "ATEX",
+        "mise à la terre"
+      ]
+    },
+    {
+      "num": "508",
+      "ver": "0326",
+      "titre": "Installations électriques dans les constructions de protection civile",
+      "url": "",
+      "icone": "abri",
+      "mots": [
+        "protection civile",
+        "abri",
+        "bunker",
+        "construction protégée",
+        "ventilation",
+        "installations électriques"
+      ]
+    },
+    {
+      "num": "511",
+      "ver": "0712",
+      "titre": "Installations électriques dans les stations d'épuration des eaux usées",
+      "url": "/inhalte/pdf/Weisungen/Franzoesisch/511_0712_f.pdf",
+      "icone": "eau",
+      "mots": [
+        "station d'épuration",
+        "STEP",
+        "eaux usées",
+        "assainissement",
+        "zone humide",
+        "atmosphère explosive",
+        "gaz"
+      ]
+    },
+    {
+      "num": "606",
+      "ver": "0113",
+      "titre": "Installations électriques sûres dans les stations-service",
+      "url": "/inhalte/pdf/Weisungen/Franzoesisch/606_0113_f.pdf",
+      "icone": "essence",
+      "mots": [
+        "station-service",
+        "station-essence",
+        "carburant",
+        "pompe",
+        "zone Ex",
+        "ATEX",
+        "distributeur",
+        "protection incendie"
+      ]
+    },
+    {
+      "num": "607",
+      "ver": "0824",
+      "titre": "Installations électriques des bateaux et raccordements à quai",
+      "url": "/inhalte/ESTI_Nr_607_FR.pdf",
+      "icone": "bateau",
+      "mots": [
+        "bateau",
+        "navire",
+        "port",
+        "raccordement à quai",
+        "shore power",
+        "navigation",
+        "borne électrique"
+      ]
+    },
+    {
+      "num": "608",
+      "ver": "0425",
+      "titre": "Enceintes conductrices exiguës",
+      "url": "/inhalte/ESTI_608_0425_FR.pdf",
+      "icone": "enceinte",
+      "mots": [
+        "enceinte conductrice",
+        "espace exigu",
+        "espace confiné",
+        "cuve",
+        "chaudière",
+        "très basse tension",
+        "sécurité"
+      ]
+    },
+    {
+      "num": "902",
+      "ver": "0106",
+      "titre": "Lignes de raccordement à courant faible dans les zones particulièrement dangereuses",
+      "url": "/inhalte/pdf/Weisungen/Franzoesisch/STI_902_0106_f.pdf",
+      "icone": "danger",
+      "mots": [
+        "courant faible",
+        "zone dangereuse",
+        "raccordement",
+        "risque",
+        "protection",
+        "installations spéciales"
+      ]
+    }
   ]
 }
