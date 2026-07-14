@@ -108,6 +108,18 @@
   .icone svg{width:58px;height:58px;display:block}
   .num{font-size:12px;font-weight:700;color:var(--rouge);letter-spacing:.6px;text-transform:uppercase}
   .maj{font-size:12px;color:var(--texte-doux);margin-top:3px}
+
+  /* Séparateur d'année dans l'onglet Communications (couleur dérivée de l'année) */
+  .annee-sep{
+    grid-column:1/-1;display:flex;align-items:center;gap:14px;
+    margin:22px 0 4px;padding:10px 18px;
+    background:hsla(var(--teinte,0),55%,50%,.10);
+    border-left:6px solid hsl(var(--teinte,0),60%,48%);
+    border-radius:10px;
+  }
+  .annee-sep:first-child{margin-top:4px}
+  .annee-num{font-size:22px;font-weight:800;color:hsl(var(--teinte,0),58%,36%);letter-spacing:.5px}
+  .annee-cpt{font-size:13px;color:var(--texte-doux)}
   .titre{font-size:17px;font-weight:700;margin:4px 0 10px}
   .mots{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
   .mot{font-size:11px;background:#f0f2f5;color:var(--texte-doux);padding:3px 8px;border-radius:6px}
@@ -459,6 +471,29 @@ function carteComHTML(c,termes){
   </article>`;
 }
 
+/* Année d'une communication (extraite de la référence ou de la date). */
+function anneeDe(c){
+  const m=(c.ref+" "+(c.date||"")).match(/(?:19|20)\d{2}/);
+  return m?m[0]:"—";
+}
+/* Rend les communications groupées par année, avec un bandeau coloré par année. */
+function grouperParAnnee(liste,termes){
+  const comptes={};
+  liste.forEach(c=>{const a=anneeDe(c);comptes[a]=(comptes[a]||0)+1;});
+  let html="",courante=null;
+  liste.forEach(c=>{
+    const an=anneeDe(c);
+    if(an!==courante){
+      courante=an;
+      const n=comptes[an];
+      const teinte=(parseInt(an,10)*47)%360;
+      html+=`<div class="annee-sep" style="--teinte:${teinte}"><span class="annee-num">${an}</span><span class="annee-cpt">${n} communication${n>1?"s":""}</span></div>`;
+    }
+    html+=carteComHTML(c,termes);
+  });
+  return html;
+}
+
 function afficher(){
   const q=normalise(champ.value.trim());
   const termes=champ.value.trim().split(/\s+/).filter(Boolean);
@@ -473,7 +508,7 @@ function afficher(){
         return mots.every(m=>foin.includes(m));
       });
     }
-    grille.innerHTML=liste.map(c=>carteComHTML(c,termes)).join("");
+    grille.innerHTML=grouperParAnnee(liste,termes);
     vide.textContent="Aucune communication ne correspond à votre recherche.";
     vide.style.display=liste.length?"none":"block";
     compteur.textContent=q

@@ -1,1300 +1,184 @@
 {
   "meta": {
-    "lastCheck": "2026-07-14T07:17:34.225Z",
-    "nextCheck": "2026-07-19T10:00:00.000Z",
+    "lastCheck": null,
+    "nextCheck": null,
     "generator": "esti-check-gs",
     "source": "https://www.esti.admin.ch/fr/documentation/directives-esti/directives-esti"
   },
   "directives": [
-    {
-      "num": "100",
-      "ver": "0619",
-      "titre": "Termes et définitions techniques, mandats de travail et ordres de manœuvre",
-      "url": "/inhalte/pdf/Weisungen/Franzoesisch/ESTI_100_0619_f.pdf",
-      "icone": "document",
-      "mots": [
-        "terminologie",
-        "définitions",
-        "vocabulaire",
-        "mandat de travail",
-        "ordre de manœuvre",
-        "glossaire",
-        "termes techniques"
-      ]
-    },
-    {
-      "num": "202",
-      "ver": "0207",
-      "titre": "Installations à courant faible dans les installations d'exploitation à haute tension",
-      "url": "/inhalte/pdf/Weisungen/Franzoesisch/202_0207_fr.pdf",
-      "icone": "courant_faible",
-      "mots": [
-        "courant faible",
-        "haute tension",
-        "télécommunication",
-        "signalisation",
-        "protection",
-        "installations d'exploitation"
-      ]
-    },
-    {
-      "num": "220",
-      "ver": "0621",
-      "titre": "Exigences sur les installations de production d'énergie",
-      "url": "/inhalte/ESTI_220_0621_FR.pdf",
-      "icone": "centrale",
-      "mots": [
-        "production d'énergie",
-        "photovoltaïque",
-        "solaire",
-        "onduleur",
-        "générateur",
-        "centrale",
-        "couplage réseau",
-        "autoproduction"
-      ]
-    },
-    {
-      "num": "221",
-      "ver": "0621",
-      "titre": "Obligations d'annoncer en cas d'autorisation générale ou limitée d'installer",
-      "url": "/inhalte/ESTI_221_0621_FR.pdf",
-      "icone": "permis",
-      "mots": [
-        "autorisation d'installer",
-        "obligation d'annoncer",
-        "permis",
-        "installateur",
-        "annonce",
-        "procédure"
-      ]
-    },
-    {
-      "num": "225",
-      "ver": "0824",
-      "titre": "Transformation d'installations de point neutre (schéma III)",
-      "url": "/inhalte/ESTI_225_0824_FR.pdf",
-      "icone": "neutre",
-      "mots": [
-        "point neutre",
-        "mise à la terre",
-        "schéma III",
-        "transformation",
-        "neutre",
-        "réseau de distribution"
-      ]
-    },
-    {
-      "num": "235",
-      "ver": "0721",
-      "titre": "Procédure d'approbation des plans des installations électriques",
-      "url": "/inhalte/pdf/Weisungen/Franzoesisch/ESTI_235_0721_f.pdf",
-      "icone": "plans",
-      "mots": [
-        "approbation des plans",
-        "procédure",
-        "autorisation",
-        "projet",
-        "dossier",
-        "plans",
-        "installations électriques"
-      ]
-    },
-    {
-      "num": "239",
-      "ver": "1006",
-      "titre": "Lignes d'amenée aux installations à basse tension",
-      "url": "/inhalte/pdf/Weisungen/Franzoesisch/STI_239_1006_f.pdf",
-      "icone": "ligne_bt",
-      "mots": [
-        "ligne d'amenée",
-        "basse tension",
-        "raccordement",
-        "branchement",
-        "alimentation"
-      ]
-    },
-    {
-      "num": "240",
-      "ver": "1199",
-      "titre": "Commentaires à propos de l'Ordonnance sur les lignes électriques",
-      "url": "/inhalte/pdf/Weisungen/Franzoesisch/STI_240_1199_f.pdf",
-      "icone": "ligne",
-      "mots": [
-        "ordonnance sur les lignes électriques",
-        "OLEl",
-        "lignes électriques",
-        "aériennes",
-        "souterraines",
-        "commentaires",
-        "réglementation"
-      ]
-    },
-    {
-      "num": "243",
-      "ver": "0325",
-      "titre": "Alimentation électrique d'installations d'antennes sur les supports de lignes à haute tension",
-      "url": "/inhalte/ESTI_243_0325_FR.pdf",
-      "icone": "antenne",
-      "mots": [
-        "antenne",
-        "téléphonie mobile",
-        "support de ligne",
-        "pylône",
-        "haute tension",
-        "alimentation",
-        "5G",
-        "télécom"
-      ]
-    },
-    {
-      "num": "244",
-      "ver": "1016",
-      "titre": "Contrôle et maintenance des installations d'éclairage public",
-      "url": "/inhalte/pdf/Weisungen/Franzoesisch/ESTI_244_1016_f.pdf",
-      "icone": "lampadaire",
-      "mots": [
-        "éclairage public",
-        "lampadaire",
-        "candélabre",
-        "luminaire",
-        "voirie",
-        "maintenance",
-        "contrôle",
-        "commune"
-      ]
-    },
-    {
-      "num": "245",
-      "ver": "0619",
-      "titre": "Travailler en sécurité sur les lignes à grandes portées à haute tension",
-      "url": "/inhalte/pdf/Weisungen/Franzoesisch/ESTI_245_0619_f.pdf",
-      "icone": "travail_hauteur",
-      "mots": [
-        "sécurité",
-        "grandes portées",
-        "haute tension",
-        "travaux en hauteur",
-        "ligne aérienne",
-        "protection travailleurs"
-      ]
-    },
-    {
-      "num": "246",
-      "ver": "0819",
-      "titre": "Travail en sécurité sur les lignes courantes avec supports en bois et supports conducteurs",
-      "url": "/inhalte/pdf/Weisungen/Franzoesisch/ESTI_246_0819_f.pdf",
-      "icone": "poteau_bois",
-      "mots": [
-        "poteau en bois",
-        "support conducteur",
-        "sécurité",
-        "ligne",
-        "montage",
-        "grimper",
-        "travaux"
-      ]
-    },
-    {
-      "num": "247",
-      "ver": "1012",
-      "titre": "Principes pour les manœuvres après déclenchement de lignes à haute tension > 1 kV",
-      "url": "/inhalte/pdf/Weisungen/Franzoesisch/ESTI_247_1012_f_download.pdf",
-      "icone": "manoeuvre",
-      "mots": [
-        "manœuvre",
-        "déclenchement",
-        "réenclenchement",
-        "haute tension",
-        "1 kV",
-        "exploitation",
-        "défaut"
-      ]
-    },
-    {
-      "num": "248",
-      "ver": "1220",
-      "titre": "Sécurité sismique de la distribution d'énergie électrique en Suisse",
-      "url": "/inhalte/pdf/Weisungen/Franzoesisch/ESTI_248_1220_f.pdf",
-      "icone": "seisme",
-      "mots": [
-        "séisme",
-        "sismique",
-        "tremblement de terre",
-        "distribution",
-        "résistance",
-        "catastrophe",
-        "protection"
-      ]
-    },
-    {
-      "num": "250",
-      "ver": "1225",
-      "titre": "Distances en cas de proximité d'installations à courant fort avec des installations de transport par conduites",
-      "url": "/inhalte/ESTI_250_1225_f.pdf",
-      "icone": "conduites",
-      "mots": [
-        "distances",
-        "proximité",
-        "courant fort",
-        "transport par conduites",
-        "gazoduc",
-        "pipeline",
-        "sécurité"
-      ]
-    },
-    {
-      "num": "322",
-      "ver": "0712",
-      "titre": "Établissement d'installations à haute tension le long des routes nationales",
-      "url": "/inhalte/pdf/Weisungen/Franzoesisch/322_0712_f.pdf",
-      "icone": "autoroute",
-      "mots": [
-        "routes nationales",
-        "autoroute",
-        "haute tension",
-        "croisement",
-        "parallélisme",
-        "OFROU"
-      ]
-    },
-    {
-      "num": "330",
-      "ver": "0121",
-      "titre": "Conditions pour les travaux de maintenance et de réparation sur les installations à basse tension",
-      "url": "/inhalte/ESTI_330_0121_f.pdf",
-      "icone": "maintenance",
-      "mots": [
-        "maintenance",
-        "réparation",
-        "basse tension",
-        "entretien",
-        "travaux",
-        "conditions",
-        "compétences"
-      ]
-    },
-    {
-      "num": "407",
-      "ver": "0526",
-      "titre": "Activités sur des installations électriques ou à proximité de celles-ci",
-      "url": "/inhalte/ESTI_407_0526_f.pdf",
-      "icone": "ouvrier",
-      "mots": [
-        "travaux électriques",
-        "proximité",
-        "sécurité",
-        "habilitation",
-        "personne compétente",
-        "EPI",
-        "risque électrique",
-        "5 règles"
-      ]
-    },
-    {
-      "num": "503",
-      "ver": "0113",
-      "titre": "Mesures de protection dans les dépôts de carburant avec installations électriques",
-      "url": "/inhalte/pdf/Weisungen/Franzoesisch/503_0113_f.pdf",
-      "icone": "cuve",
-      "mots": [
-        "dépôt de carburant",
-        "atmosphère explosive",
-        "ATEX",
-        "zone Ex",
-        "réservoir",
-        "protection",
-        "incendie"
-      ]
-    },
-    {
-      "num": "507",
-      "ver": "0113",
-      "titre": "Mesures de protection électriques dans les installations de transport par conduites",
-      "url": "/inhalte/ESTI_507_0113_f_download.pdf",
-      "icone": "pipeline",
-      "mots": [
-        "transport par conduites",
-        "pipeline",
-        "gazoduc",
-        "oléoduc",
-        "protection électrique",
-        "ATEX",
-        "mise à la terre"
-      ]
-    },
-    {
-      "num": "508",
-      "ver": "0326",
-      "titre": "Installations électriques dans les constructions de protection civile",
-      "url": "",
-      "icone": "abri",
-      "mots": [
-        "protection civile",
-        "abri",
-        "bunker",
-        "construction protégée",
-        "ventilation",
-        "installations électriques"
-      ]
-    },
-    {
-      "num": "511",
-      "ver": "0712",
-      "titre": "Installations électriques dans les stations d'épuration des eaux usées",
-      "url": "/inhalte/pdf/Weisungen/Franzoesisch/511_0712_f.pdf",
-      "icone": "eau",
-      "mots": [
-        "station d'épuration",
-        "STEP",
-        "eaux usées",
-        "assainissement",
-        "zone humide",
-        "atmosphère explosive",
-        "gaz"
-      ]
-    },
-    {
-      "num": "606",
-      "ver": "0113",
-      "titre": "Installations électriques sûres dans les stations-service",
-      "url": "/inhalte/pdf/Weisungen/Franzoesisch/606_0113_f.pdf",
-      "icone": "essence",
-      "mots": [
-        "station-service",
-        "station-essence",
-        "carburant",
-        "pompe",
-        "zone Ex",
-        "ATEX",
-        "distributeur",
-        "protection incendie"
-      ]
-    },
-    {
-      "num": "607",
-      "ver": "0824",
-      "titre": "Installations électriques des bateaux et raccordements à quai",
-      "url": "/inhalte/ESTI_Nr_607_FR.pdf",
-      "icone": "bateau",
-      "mots": [
-        "bateau",
-        "navire",
-        "port",
-        "raccordement à quai",
-        "shore power",
-        "navigation",
-        "borne électrique"
-      ]
-    },
-    {
-      "num": "608",
-      "ver": "0425",
-      "titre": "Enceintes conductrices exiguës",
-      "url": "/inhalte/ESTI_608_0425_FR.pdf",
-      "icone": "enceinte",
-      "mots": [
-        "enceinte conductrice",
-        "espace exigu",
-        "espace confiné",
-        "cuve",
-        "chaudière",
-        "très basse tension",
-        "sécurité"
-      ]
-    },
-    {
-      "num": "902",
-      "ver": "0106",
-      "titre": "Lignes de raccordement à courant faible dans les zones particulièrement dangereuses",
-      "url": "/inhalte/pdf/Weisungen/Franzoesisch/STI_902_0106_f.pdf",
-      "icone": "danger",
-      "mots": [
-        "courant faible",
-        "zone dangereuse",
-        "raccordement",
-        "risque",
-        "protection",
-        "installations spéciales"
-      ]
-    }
+    {"num":"100","ver":"0619","titre":"Termes et définitions techniques, mandats de travail et ordres de manœuvre","url":"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_100_0619_f.pdf","icone":"document","mots":["terminologie","définitions","vocabulaire","mandat de travail","ordre de manœuvre","glossaire","termes techniques"]},
+    {"num":"202","ver":"0207","titre":"Installations à courant faible dans les installations d'exploitation à haute tension","url":"/inhalte/pdf/Weisungen/Franzoesisch/202_0207_fr.pdf","icone":"courant_faible","mots":["courant faible","haute tension","télécommunication","signalisation","protection","installations d'exploitation"]},
+    {"num":"220","ver":"0621","titre":"Exigences sur les installations de production d'énergie","url":"/inhalte/ESTI_220_0621_FR.pdf","icone":"centrale","mots":["production d'énergie","photovoltaïque","solaire","onduleur","générateur","centrale","couplage réseau","autoproduction"]},
+    {"num":"221","ver":"0621","titre":"Obligations d'annoncer en cas d'autorisation générale ou limitée d'installer","url":"/inhalte/ESTI_221_0621_FR.pdf","icone":"permis","mots":["autorisation d'installer","obligation d'annoncer","permis","installateur","annonce","procédure"]},
+    {"num":"225","ver":"0824","titre":"Transformation d'installations de point neutre (schéma III)","url":"/inhalte/ESTI_225_0824_FR.pdf","icone":"neutre","mots":["point neutre","mise à la terre","schéma III","transformation","neutre","réseau de distribution"]},
+    {"num":"235","ver":"0721","titre":"Procédure d'approbation des plans des installations électriques","url":"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_235_0721_f.pdf","icone":"plans","mots":["approbation des plans","procédure","autorisation","projet","dossier","plans","installations électriques"]},
+    {"num":"239","ver":"1006","titre":"Lignes d'amenée aux installations à basse tension","url":"/inhalte/pdf/Weisungen/Franzoesisch/STI_239_1006_f.pdf","icone":"ligne_bt","mots":["ligne d'amenée","basse tension","raccordement","branchement","alimentation"]},
+    {"num":"240","ver":"1199","titre":"Commentaires à propos de l'Ordonnance sur les lignes électriques","url":"/inhalte/pdf/Weisungen/Franzoesisch/STI_240_1199_f.pdf","icone":"ligne","mots":["ordonnance sur les lignes électriques","OLEl","lignes électriques","aériennes","souterraines","commentaires","réglementation"]},
+    {"num":"243","ver":"0325","titre":"Alimentation électrique d'installations d'antennes sur les supports de lignes à haute tension","url":"/inhalte/ESTI_243_0325_FR.pdf","icone":"antenne","mots":["antenne","téléphonie mobile","support de ligne","pylône","haute tension","alimentation","5G","télécom"]},
+    {"num":"244","ver":"1016","titre":"Contrôle et maintenance des installations d'éclairage public","url":"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_244_1016_f.pdf","icone":"lampadaire","mots":["éclairage public","lampadaire","candélabre","luminaire","voirie","maintenance","contrôle","commune"]},
+    {"num":"245","ver":"0619","titre":"Travailler en sécurité sur les lignes à grandes portées à haute tension","url":"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_245_0619_f.pdf","icone":"travail_hauteur","mots":["sécurité","grandes portées","haute tension","travaux en hauteur","ligne aérienne","protection travailleurs"]},
+    {"num":"246","ver":"0819","titre":"Travail en sécurité sur les lignes courantes avec supports en bois et supports conducteurs","url":"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_246_0819_f.pdf","icone":"poteau_bois","mots":["poteau en bois","support conducteur","sécurité","ligne","montage","grimper","travaux"]},
+    {"num":"247","ver":"1012","titre":"Principes pour les manœuvres après déclenchement de lignes à haute tension > 1 kV","url":"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_247_1012_f_download.pdf","icone":"manoeuvre","mots":["manœuvre","déclenchement","réenclenchement","haute tension","1 kV","exploitation","défaut"]},
+    {"num":"248","ver":"1220","titre":"Sécurité sismique de la distribution d'énergie électrique en Suisse","url":"/inhalte/pdf/Weisungen/Franzoesisch/ESTI_248_1220_f.pdf","icone":"seisme","mots":["séisme","sismique","tremblement de terre","distribution","résistance","catastrophe","protection"]},
+    {"num":"250","ver":"1225","titre":"Distances en cas de proximité d'installations à courant fort avec des installations de transport par conduites","url":"/inhalte/ESTI_250_1225_f.pdf","icone":"conduites","mots":["distances","proximité","courant fort","transport par conduites","gazoduc","pipeline","sécurité"]},
+    {"num":"322","ver":"0712","titre":"Établissement d'installations à haute tension le long des routes nationales","url":"/inhalte/pdf/Weisungen/Franzoesisch/322_0712_f.pdf","icone":"autoroute","mots":["routes nationales","autoroute","haute tension","croisement","parallélisme","OFROU"]},
+    {"num":"330","ver":"0121","titre":"Conditions pour les travaux de maintenance et de réparation sur les installations à basse tension","url":"/inhalte/ESTI_330_0121_f.pdf","icone":"maintenance","mots":["maintenance","réparation","basse tension","entretien","travaux","conditions","compétences"]},
+    {"num":"407","ver":"0526","titre":"Activités sur des installations électriques ou à proximité de celles-ci","url":"/inhalte/ESTI_407_0526_f.pdf","icone":"ouvrier","mots":["travaux électriques","proximité","sécurité","habilitation","personne compétente","EPI","risque électrique","5 règles"]},
+    {"num":"503","ver":"0113","titre":"Mesures de protection dans les dépôts de carburant avec installations électriques","url":"/inhalte/pdf/Weisungen/Franzoesisch/503_0113_f.pdf","icone":"cuve","mots":["dépôt de carburant","atmosphère explosive","ATEX","zone Ex","réservoir","protection","incendie"]},
+    {"num":"507","ver":"0113","titre":"Mesures de protection électriques dans les installations de transport par conduites","url":"/inhalte/ESTI_507_0113_f_download.pdf","icone":"pipeline","mots":["transport par conduites","pipeline","gazoduc","oléoduc","protection électrique","ATEX","mise à la terre"]},
+    {"num":"508","ver":"0326","titre":"Installations électriques dans les constructions de protection civile","url":"","icone":"abri","mots":["protection civile","abri","bunker","construction protégée","ventilation","installations électriques"]},
+    {"num":"511","ver":"0712","titre":"Installations électriques dans les stations d'épuration des eaux usées","url":"/inhalte/pdf/Weisungen/Franzoesisch/511_0712_f.pdf","icone":"eau","mots":["station d'épuration","STEP","eaux usées","assainissement","zone humide","atmosphère explosive","gaz"]},
+    {"num":"606","ver":"0113","titre":"Installations électriques sûres dans les stations-service","url":"/inhalte/pdf/Weisungen/Franzoesisch/606_0113_f.pdf","icone":"essence","mots":["station-service","station-essence","carburant","pompe","zone Ex","ATEX","distributeur","protection incendie"]},
+    {"num":"607","ver":"0824","titre":"Installations électriques des bateaux et raccordements à quai","url":"/inhalte/ESTI_Nr_607_FR.pdf","icone":"bateau","mots":["bateau","navire","port","raccordement à quai","shore power","navigation","borne électrique"]},
+    {"num":"608","ver":"0425","titre":"Enceintes conductrices exiguës","url":"/inhalte/ESTI_608_0425_FR.pdf","icone":"enceinte","mots":["enceinte conductrice","espace exigu","espace confiné","cuve","chaudière","très basse tension","sécurité"]},
+    {"num":"902","ver":"0106","titre":"Lignes de raccordement à courant faible dans les zones particulièrement dangereuses","url":"/inhalte/pdf/Weisungen/Franzoesisch/STI_902_0106_f.pdf","icone":"danger","mots":["courant faible","zone dangereuse","raccordement","risque","protection","installations spéciales"]}
   ],
   "communications": [
-    {
-      "ref": "2026-0401",
-      "titre": "Problématique de la mise à la terre des mâts à haute tension avec installations d’antennes",
-      "date": "avril 2026",
-      "url": "/inhalte/2026-0401_Masterdung_mit_Mobile_f.pdf"
-    },
-    {
-      "ref": "2026-0202",
-      "titre": "Démantèlement d'installations à haute tension et d'installations du réseau de distribution à basse tension",
-      "date": "février 2026",
-      "url": "/inhalte/2026-0202_Mitteilung_Rueckbau_von_Anlagen_FR.pdf"
-    },
-    {
-      "ref": "2026-0201",
-      "titre": "Procédure d'approbation des plans – Installations électriques du réseau de distribution à basse tension dans les zones protégées",
-      "date": "février 2026",
-      "url": "/inhalte/2026-0201_Mitteilung_Schutzgebiete_Niederspannungsverteilnetz_FR.pdf"
-    },
-    {
-      "ref": "2025-1202",
-      "titre": "Exceptions à l’obligation d’approbation des plans pour des modifications",
-      "date": "décembre 2025",
-      "url": "/inhalte/2025-1202_Mitteilung_VPeA_Revision_genehmigungsfreie_AEnderungen_FR.pdf"
-    },
-    {
-      "ref": "2025-1001",
-      "titre": "Nouveau numéro d'urgence 24h/24 pour signaler les accidents et les dommages",
-      "date": "octobre 2025",
-      "url": "/inhalte/2025-1001_ESTI-Mitteilung_Unfall-_und_Schadenmeldungen_fr.pdf"
-    },
-    {
-      "ref": "2025-0601",
-      "titre": "Harmonisation du droit suisse avec le règlement F-Gas de l'UE : Conséquences sur la mise sur le marché d'installations de commutation et d'appareils de commutation",
-      "date": "juin 2025",
-      "url": "/inhalte/2025-0601_Mitteilung_EU_F-Gas-Verordnung_FR.pdf"
-    },
-    {
-      "ref": "2025-0501",
-      "titre": "Dimensionnement correct des conducteurs de terre de stations transformatrices en cas de défaut",
-      "date": "mai 2025",
-      "url": "/inhalte/2025-0501_ESTI_Mitteilung_TS-Erdung_FR.pdf"
-    },
-    {
-      "ref": "2024-0802",
-      "titre": "Rapports de sécurité suite à une faillite ou en cas de cessation de la surveillance exercée par le responsable technique",
-      "date": "1 août 2024",
-      "url": "/inhalte/2024-0802_Rapports_de_securite_suite_a_une_faillite_ou_en_cas_de_cessation_de_la_surveillance_exercee_par_le_responsable_technique.pdf"
-    },
-    {
-      "ref": "2024-0801",
-      "titre": "Explications relatives à la directive 225 (schéma III d'assainissement)",
-      "date": "1 août 2024",
-      "url": "/inhalte/2024-0801_Explications_relatives_a_la_directive_225.pdf"
-    },
-    {
-      "ref": "2024-0701",
-      "titre": "uveau règlement concernant l'examen portant sur le raccordement de matériels électriques à basse tension",
-      "date": "1 juillet 2024",
-      "url": "/inhalte/TRA_FR_ESTI-Mitteilung_Art._15_NIV_Reglement_1.7.2024_zur_Publikation.pdf"
-    },
-    {
-      "ref": "2023-1202",
-      "titre": "Procédure d'approbation des plans (PAP) - autres étapes de numérisation",
-      "date": "18 décembre 2023",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2023-1202_Communication_Digitalisation.pdf"
-    },
-    {
-      "ref": "2023-0801",
-      "titre": "Statistiques ESTI des accidents 2022",
-      "date": "21 août 2023",
-      "url": "/inhalte/2023-0801_ESTI-Mitteilung_ESTI-Unfallstatistik_2022_FR.pdf"
-    },
-    {
-      "ref": "2023-0301",
-      "titre": "uveau règlement concernant l'examen portant sur le raccordement de matériels électriques à basse tension",
-      "date": "mars 2023",
-      "url": "/inhalte/2023-0301_Mitteilung_neues_Reglement_Art._15_NIV_f.pdf"
-    },
-    {
-      "ref": "2022-1101",
-      "titre": "Statistiques ESTI des accidents 2020 et 2021",
-      "date": "16 novembre 2022",
-      "url": "/inhalte/TRA_FR_2022-1101_ESTI-Mitteilung_ESTI-Unfallstatistik_2020_2021.pdf"
-    },
-    {
-      "ref": "2022-0501",
-      "titre": "uveau règlement concernant l'examen portant sur les travaux effectués sur des installations spéciales",
-      "date": "25 mai 2022",
-      "url": "/inhalte/2022-0501_ESTI-Mitteilung_Reglement_Pruefung_Art._14_NIV_def_FR.pdf"
-    },
-    {
-      "ref": "2021-0902",
-      "titre": "Etendue de l'autorisation accordée à des personnes physiques",
-      "date": "14 septembre 2021",
-      "url": "/inhalte/2021-0902_umfang_bewilligung_nat-personen_f_Am.pdf"
-    },
-    {
-      "ref": "2021-0901",
-      "titre": "Procédure d'approbation des plans pour les installations électriques Implication de l'OFT",
-      "date": "9 septembre 2021",
-      "url": "/inhalte/2021-0901_Communication_adaptation_integration_OFT_fr.pdf"
-    },
-    {
-      "ref": "2021-0701",
-      "titre": "Modification de l'ordonnance au 1er juillet 2021",
-      "date": "1 juillet 2021",
-      "url": "/inhalte/2021-0701_FR__Mitteilung_Verordnungsaenderung__1_.pdf"
-    },
-    {
-      "ref": "2021-0601",
-      "titre": "uveau règlement pour l'autorisation de raccordement",
-      "date": "8 juin 2021",
-      "url": "/inhalte/2021-0601_FR_Mitteilung_Reglement_Art._15NIV.pdf"
-    },
-    {
-      "ref": "2021-0301",
-      "titre": "Mise en œuvre et clarification de l'art. 9a OPIE - Exemptions de l'obligation d'approbation des plans",
-      "date": "31 mars 2021",
-      "url": "/inhalte/2021-0301_FR_Mitteilung_Umsetzung_und_Klarstellung_v._Art._9a_VAeA-Ausnahmen_von_der_Plangenehmigungspflicht.pdf"
-    },
-    {
-      "ref": "2020-0801",
-      "titre": "L'ESTI met en ligne la remise numérique des demandes d'approbation des plans",
-      "date": "31 août 2020",
-      "url": "/inhalte/2020-0801_Mitteilung_Plangenehmigungsgesuche_online_fr.pdf"
-    },
-    {
-      "ref": "2020-0702",
-      "titre": "Participation des cantons à la décision d'approbation des plan de l'ESTI",
-      "date": "29 juillet 2020",
-      "url": "/inhalte/2020-0702_Communication_d._cantons_a_la_decision_d_app._des_plans_fr_.pdf"
-    },
-    {
-      "ref": "2020-0701",
-      "titre": "Délais transitoires pour la série de normes SN 441011",
-      "date": "1 juillet 2020",
-      "url": "/inhalte/2020-0701_Mitteilung_SN_441011_IP55_ESTI_fr.pdf"
-    },
-    {
-      "ref": "2020-0602",
-      "titre": "Autorisations d'installer accordées à des entreprises",
-      "date": "29 juin 2020",
-      "url": "/inhalte/ESTI_Mitteilung_2020-0602_FR_Am-V2.pdf"
-    },
-    {
-      "ref": "2020-0601",
-      "titre": "Explications quant aux périodes de contrôle",
-      "date": "8 juin 2020",
-      "url": "/inhalte/2020-0601_Communication_periodes_de_controle__2.3.8_2.3.9_2.4.4.pdf"
-    },
-    {
-      "ref": "2020-0301",
-      "titre": "Adaptation de la période transitoire pour le chapitre 7.04.4.1.1.3 de la NIBT 2020 (Installations de chantiers)",
-      "date": "17 mars 2020",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2019-2020/2020-0301_angepasste_uebergangsfrist_baustellen_f.pdf"
-    },
-    {
-      "ref": "2019-1101",
-      "titre": "Ordonnance sur les installations à basse tension Rapport annuel 2018",
-      "date": "27 novembre 2019",
-      "url": "/inhalte/pdf/NIV_I/Jahresberichte_NIV/2019-1101_Jahresbericht_NIV_2018_f.pdf"
-    },
-    {
-      "ref": "2019-0702",
-      "titre": "Résistance aux défauts à la terre et aux courts-circuits : compléments et période transitoire concernant la commu-nication ESTI 11/2017",
-      "date": "22 juillet 2019",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2019/2019-0702_erd_kurzschlussfestigkeit_f_01.pdf"
-    },
-    {
-      "ref": "2019-0701",
-      "titre": "Regroupement dans le cadre de la consommation propre – OIBT",
-      "date": "18 juillet 2019",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2019-2020/2019-0701_zev_niv_f.pdf"
-    },
-    {
-      "ref": "2019-05",
-      "titre": "Point de transition entre le réseau de distribution et l’installation",
-      "date": "mai 2019",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2019-2020/2019-05_grenzstelle_verteilnetz_installation_f.pdf"
-    },
-    {
-      "ref": "2019-05",
-      "titre": "Travailler sur des réseaux de distribution en toute sécurité",
-      "date": "mai 2019",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2019/2019-05_sicheres_arbeiten_f.pdf"
-    },
-    {
-      "ref": "2019-03",
-      "titre": "Contrôle périodique en cas de changement de propriétaire",
-      "date": "mars 2019",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2019-2020/2019-03_handaenderung_f_3.pdf"
-    },
-    {
-      "ref": "2019-02",
-      "titre": "Les courants vagabonds dans les exploitations d’élevage",
-      "date": "février 2019",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2019/2019-02_streustroeme_tierhaltung_f.pdf"
-    },
-    {
-      "ref": "2019-02",
-      "titre": "Les courants vagabons dans les exploitations d'élevage",
-      "date": "février 2019",
-      "url": "/inhalte/2019-02_streustroeme_tierhaltung_f.pdf"
-    },
-    {
-      "ref": "2019-01",
-      "titre": "Procédure d’approbation des plans : actualisation des directives n° 235",
-      "date": "janvier 2019",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2019/2019-01-02_richtlinie-235_f.pdf"
-    },
-    {
-      "ref": "2018-11",
-      "titre": "Mesures de mise à la terre sur les supports des lignes aériennes HT",
-      "date": "novembre 2018",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2017_2018/2018-11_erdungsmessungen_hs_freileitungstragwerke_f.pdf"
-    },
-    {
-      "ref": "2018-09",
-      "titre": "Enveloppes à surpression interne",
-      "date": "septembre 2018",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2018-09_ueberdruckgekapselte_gehaeuse_f.pdf"
-    },
-    {
-      "ref": "2018-09",
-      "titre": "Invitation au contrôle périodique",
-      "date": "septembre 2018",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2018-09_aufforderung_periodische_kontrolle_f.pdf"
-    },
-    {
-      "ref": "2018-07",
-      "titre": "Remplacement des cellules MT de type WEVA",
-      "date": "juillet 2018",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2018-07-08_weva_f.pdf"
-    },
-    {
-      "ref": "2018-07",
-      "titre": "Révision totale de l’ordonnance du DETEC sur l’OIBT",
-      "date": "juillet 2018",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2018-07-08_totalrev_departementsverordnung_niv_f.pdf"
-    },
-    {
-      "ref": "2018-07",
-      "titre": "uvelle convention entre l’ElCom-ESTI-OFEN",
-      "date": "juillet 2018",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2017_2018/2018-07-08_vereinbarung_elcom_esti_bfe_f.pdf"
-    },
-    {
-      "ref": "2018-06",
-      "titre": "Révision partielle de l’OIBT : Périodes de contrôle",
-      "date": "juin 2018",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2018-06_teilrevision-niv_kontrollperioden_f.pdf"
-    },
-    {
-      "ref": "2018-06",
-      "titre": "Vente de matériel électrique et installations par des profanes",
-      "date": "juin 2018",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2018-06_verkauf_elektromaterial_f.pdf"
-    },
-    {
-      "ref": "2018-05",
-      "titre": "Formation continue pour les porteurs d’une autorisation",
-      "date": "mai 2018",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2018-05_weiterbildung_f.pdf"
-    },
-    {
-      "ref": "2018-04",
-      "titre": "Obligation d’annoncer et contrôles des installations PV",
-      "date": "avril 2018",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2018-04_meldepflicht_kontrollen_pv-Anlagen_f.pdf"
-    },
-    {
-      "ref": "2018-03",
-      "titre": "uveauté dans la procédure d’approbation des plans pour les installations de production d’énergie (IPE)",
-      "date": "mars 2018",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2017_2018/2018-03_neuerung_plangenehmigungsverfahren_eea_f.pdf"
-    },
-    {
-      "ref": "2018-01",
-      "titre": "Contrôle des titulaires d’une autorisation générale d’installer",
-      "date": "janvier 2018",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2018-01-02_ueberpruefung_inhaber_f.pdf"
-    },
-    {
-      "ref": "2018-01",
-      "titre": "Travaux d’entretien et de réparation sur des installations déterminées",
-      "date": "janvier 2018",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2018-01-02_service_reparaturarbeiten_f.pdf"
-    },
-    {
-      "ref": "2018-01",
-      "titre": "Réalisation d’installations de conduites tubulaires",
-      "date": "janvier 2018",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2017_2018/2018-01-02_rohranlagen_f.pdf"
-    },
-    {
-      "ref": "2018-01",
-      "titre": "Prescriptions de protection incendie",
-      "date": "janvier 2018",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2018_2017/2018-01-02_vorschriften_brandschutz_f.pdf"
-    },
-    {
-      "ref": "2017-12",
-      "titre": "Révision partielle de l’OIBT",
-      "date": "décembre 2017",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2017-12_teilrevision_niv_f_ver2.pdf"
-    },
-    {
-      "ref": "2017-12",
-      "titre": "Interruption de l’alimentation de courant au lieu du contrôle périodique",
-      "date": "décembre 2017",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2017-12_unterbrechen_stromzufuhr_f.pdf"
-    },
-    {
-      "ref": "2017-11",
-      "titre": "Recours de tiers concernant des décisions de reconnaissance",
-      "date": "novembre 2017",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2017-11_beschwerde_dritter_f.pdf"
-    },
-    {
-      "ref": "2017-11",
-      "titre": "Résistance aux défauts à la terre et aux courts-circuits",
-      "date": "novembre 2017",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2017-11_erd_kurzschlussfestigkeit2_f.pdf"
-    },
-    {
-      "ref": "2017-10",
-      "titre": "Prolongation de la durée de validité des approbations des plans / Remplace la communication du Bulletin 5/2016",
-      "date": "octobre 2017",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2017_2018/2017-10_verlaengerung-geltungsdauer-plangenehmigungen_f.pdf"
-    },
-    {
-      "ref": "2017-10",
-      "titre": "Remplacement de transformateurs",
-      "date": "octobre 2017",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2017_2018/2017-10_transformatoren_auswechseln_f.pdf"
-    },
-    {
-      "ref": "2017-0708",
-      "titre": "Certification avec le signe de sécurité",
-      "date": "juillet 2017",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2017-0708_zertifizierung-S__f.pdf"
-    },
-    {
-      "ref": "2017-04",
-      "titre": "Enrouleurs de câble et rallonges sur les chantiers",
-      "date": "avril 2017",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2017/2017-04_kabelrollen_f.pdf"
-    },
-    {
-      "ref": "2017-03",
-      "titre": "Contrôle final et contrôle de réception",
-      "date": "mars 2017",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2017-03_schlusskontrolle_f.pdf"
-    },
-    {
-      "ref": "2016-12",
-      "titre": "Installations électriques dans les zones de protection contre les explosions 0, 20, 1 et 21",
-      "date": "décembre 2016",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2016_2015/2016-12_inst_explosionsschutz_zonen_f_praez.pdf"
-    },
-    {
-      "ref": "2016-11",
-      "titre": "Stations de couplage et stations transformatrices hors de la zone à bâtir",
-      "date": "novembre 2016",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2016_2015/2016-11_bauzonen_f.pdf"
-    },
-    {
-      "ref": "2016-09",
-      "titre": "uveaux règlements pour les examens conformément à l’art. 21 OIBT",
-      "date": "septembre 2016",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2016_2015/2016-09_neue_reglemente_art21niv_f.pdf"
-    },
-    {
-      "ref": "2016-08",
-      "titre": "Dérogation",
-      "date": "août 2016",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2016_2015/2016-08_ausnahmebew_f.pdf"
-    },
-    {
-      "ref": "2016-08",
-      "titre": "Adaption de l’ORNI",
-      "date": "août 2016",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2016_2015/2016-08_anpassung_nisv_f.pdf"
-    },
-    {
-      "ref": "2016-08",
-      "titre": "Fin opérationnelle des prises type 12",
-      "date": "août 2016",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2016_2015/2016-08_steckdosen_typ12_DFI.pdf"
-    },
-    {
-      "ref": "2016-07",
-      "titre": "Mise en place d’installations photovoltaïques",
-      "date": "juillet 2016",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2016_2015/2016-07_inst_photovoltaikanlagen_kor_f.pdf"
-    },
-    {
-      "ref": "2016-07",
-      "titre": "Modification des autorisations d’installer et de contrôler",
-      "date": "juillet 2016",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2016_2015/2016-07_aenderung_inst_kontr_bewilligungen_f.pdf"
-    },
-    {
-      "ref": "2016-05",
-      "titre": "uvelles exigences concernant l’efficacité énergétique pour les transformateurs de distribution",
-      "date": "mai 2016",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2016_2015/2016-05_energieeff_trafo_f.pdf"
-    },
-    {
-      "ref": "2016-04",
-      "titre": "Procédure d’approbation des plans : mise à l’enquête publique",
-      "date": "avril 2016",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2016_2015/2016-04_pgv_f.pdf"
-    },
-    {
-      "ref": "2016-03",
-      "titre": "Fiches de données techniques (TD) pour les demandes d’approbation des plans",
-      "date": "mars 2016",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2016_2015/2016-03_td_f.pdf"
-    },
-    {
-      "ref": "2016-02",
-      "titre": "Autorisations limitées pour personnes formées à l’étranger",
-      "date": "février 2016",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2016_2015/2016-02_eingeschr-bew_ausland-ausbildung_F.pdf"
-    },
-    {
-      "ref": "2016-02",
-      "titre": "Le Conseil fédéral révise deux ordonnances dans le domaine de l’électricité",
-      "date": "février 2016",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2016_2015/2016-02_bundesrat_revidiert-2verordnungen_kontaktbox_f.pdf"
-    },
-    {
-      "ref": "2016-01",
-      "titre": "Rapport de sécurité périodique de titulaires de l’autorisation pour les travaux d’installation effectués à l’intérieur d’une entreprise",
-      "date": "janvier 2016",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2016_2015/2016-01_sina_f.pdf"
-    },
-    {
-      "ref": "2015-11",
-      "titre": "Construction de stations transformatrices hors de la zone à bâtir",
-      "date": "novembre 2015",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2016_2015/2015-11_trafo_ausser-bauzonen_f.pdf"
-    },
-    {
-      "ref": "2015-09",
-      "titre": "Concept de sécurité selon l’ordonnance sur le courant fort",
-      "date": "septembre 2015",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2016_2015/2015-09_siko_stv_f.pdf"
-    },
-    {
-      "ref": "2015-08",
-      "titre": "Campagne Suva «Electricité en toute sécurité»",
-      "date": "août 2015",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2016_2015/2015-08_suva_kamp_f.pdf"
-    },
-    {
-      "ref": "2015-05",
-      "titre": "Types de propriété et invitation au contrôle périodique",
-      "date": "mai 2015",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2016_2015/2015-05_eigentum_f.pdf"
-    },
-    {
-      "ref": "2015-03",
-      "titre": "Reconnaissance des qualifications professionnelles en électrotechnique étrangères",
-      "date": "mars 2015",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2016_2015/2015-03_anerkennung_EU-EFTA_f.pdf"
-    },
-    {
-      "ref": "2015-02",
-      "titre": "Protection anticorrosion des supports en acier",
-      "date": "février 2015",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2016_2015/2015-02_korr-schutz_cercl-air_f.pdf"
-    },
-    {
-      "ref": "2015-02",
-      "titre": "Tubes LED de remplacement",
-      "date": "février 2015",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2016_2015/2015-02_retrofit-led_f.pdf"
-    },
-    {
-      "ref": "2015-01",
-      "titre": "Assurer contre le réenclenchement",
-      "date": "janvier 2015",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2016_2015/2015-01_wiedereinschalten_f.pdf"
-    },
-    {
-      "ref": "2014-12",
-      "titre": "Autorisation temporaire",
-      "date": "décembre 2014",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2014-12_ersatzbew_f.pdf"
-    },
-    {
-      "ref": "2014-11",
-      "titre": "Surveillance technique efficace des travaux d’installation",
-      "date": "novembre 2014",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2014-11_wirksame_aufsicht_f.pdf"
-    },
-    {
-      "ref": "2014-09",
-      "titre": "Installation ou matériel électrique?",
-      "date": "septembre 2014",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2014_2013/2014-09_installation-erzeugnis_f.pdf"
-    },
-    {
-      "ref": "2014-08",
-      "titre": "Aide à l’exécution Défrichements et compensation du défrichement",
-      "date": "août 2014",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2014_2013/2014-08_vollzugshilfe_rodungen_f.pdf"
-    },
-    {
-      "ref": "2014-08",
-      "titre": "Coûts des demandes d’approbation des plans",
-      "date": "août 2014",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2014_2013/2014-08_kosten_pv_f.pdf"
-    },
-    {
-      "ref": "2014-07",
-      "titre": "Installations photovoltaïques Plug & Play Limitation de la puissance des installations photovoltaïques à brancher librement",
-      "date": "juillet 2014",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2014_2013/2014-07_plugplay_f.pdf"
-    },
-    {
-      "ref": "2014-06",
-      "titre": "Installations électriques par des prestataires de services de l’UE/AELE",
-      "date": "juin 2014",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2014-06_EU-EFTA_f.pdf"
-    },
-    {
-      "ref": "2014-05",
-      "titre": "Application de la campagne «Electricité en toute sécurité» 5 + 5 règles vitales pour les travaux sur ou à proximité d’installations électriques",
-      "date": "mai 2014",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2014_2013/2014-05_vollzug_kampagne_f.pdf"
-    },
-    {
-      "ref": "2014-03",
-      "titre": "Accélération de la procédure d’approbation des plans",
-      "date": "mars 2014",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2014_2013/2014-03_beschleunigung_pv_f.pdf"
-    },
-    {
-      "ref": "2014-02",
-      "titre": "Procédures pénales administratives / Transfert de compétences en matière d’instruction",
-      "date": "février 2014",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2014_2013/2014-02_verw-strafverfahren_f.pdf"
-    },
-    {
-      "ref": "2014-01",
-      "titre": "Installations photovoltaïques",
-      "date": "janvier 2014",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2014-01_fotovoltaik_aktualisiert2016_f.pdf"
-    },
-    {
-      "ref": "2013-11",
-      "titre": "Contrôles sporadiques d’installations électriques à basse tension",
-      "date": "novembre 2013",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2013-11_stichproben_f.pdf"
-    },
-    {
-      "ref": "2013-09",
-      "titre": "Contrôle des conditions requises pour l’autorisation Entretien technique comme moyen légalement autorisé",
-      "date": "septembre 2013",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2013-09_fachgespraech_f.pdf"
-    },
-    {
-      "ref": "2013-08",
-      "titre": "Pas de rapport de sécurité - Que doit faire l’exploitant du réseau ?",
-      "date": "août 2013",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2013-08_kein_sina_f.pdf"
-    },
-    {
-      "ref": "2013-07",
-      "titre": "Contrôle périodique des installations électriques - Aucune atteinte grave à la sphère privée",
-      "date": "juillet 2013",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2013-07_zutrittsrecht_f.pdf"
-    },
-    {
-      "ref": "2013-05",
-      "titre": "Pas de publicité avec les armoiries de la Confédération",
-      "date": "mai 2013",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2014_2013/2013-05_werbung_f.pdf"
-    },
-    {
-      "ref": "2013-03",
-      "titre": "Autorisations d’installer limitées",
-      "date": "mars 2013",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2013-03_eingeschr_instbew_f.pdf"
-    },
-    {
-      "ref": "2013-03",
-      "titre": "Prises de courant pour usages domestiques et analogues",
-      "date": "mars 2013",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2014_2013/2013-03_stecker_steckdosen_f.pdf"
-    },
-    {
-      "ref": "2013-02",
-      "titre": "Propriétaire? Rapport de sécurité !",
-      "date": "février 2013",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2013-02_sina_f.pdf"
-    },
-    {
-      "ref": "2013-01",
-      "titre": "Matériels avec label S+ signe de sécurité désormais sur Internet",
-      "date": "janvier 2013",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2014_2013/2013-01_bs_internet_f.pdf"
-    },
-    {
-      "ref": "2013-01",
-      "titre": "Sécurité des installations électriques des bateaux",
-      "date": "janvier 2013",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2014_2013/2013-01_we_schiffe_f.pdf"
-    },
-    {
-      "ref": "2012-12",
-      "titre": "Premiers secours en cas d’accident électrique",
-      "date": "décembre 2012",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2012_2011/2012-12_erstehilfe_f.pdf"
-    },
-    {
-      "ref": "2012-11",
-      "titre": "Réenclenchement de lignes à haute tension",
-      "date": "novembre 2012",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2012_2011/2012-11_wiedereinschalten_f.pdf"
-    },
-    {
-      "ref": "2012-09",
-      "titre": "Indépendance des contrôles selon l’OIBT",
-      "date": "septembre 2012",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2012-09_unabhaengigkeit_kontr_f.pdf"
-    },
-    {
-      "ref": "2012-08",
-      "titre": "Autorisation générale d’installer, « sous-traitance » et location de services",
-      "date": "août 2012",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2012-08_unterakkord_f.pdf"
-    },
-    {
-      "ref": "2012-08",
-      "titre": "Fonctions de surveillance et de contrôle de l’ESTI",
-      "date": "août 2012",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2012_2011/2012-08_aufsicht-kontrollaufgaben_f.pdf"
-    },
-    {
-      "ref": "2012-08",
-      "titre": "Sécurité sismique de la distribution d’énergie électrique en Suisse",
-      "date": "août 2012",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2012_2011/2012-08_erdbebensicherung_f.pdf"
-    },
-    {
-      "ref": "2012-05",
-      "titre": "Pas de suppression de défauts par les organes de contrôle",
-      "date": "mai 2012",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2012-05_kontrollorgane_f.pdf"
-    },
-    {
-      "ref": "2012-04",
-      "titre": "Périodes de contrôle d’installations d’enneigement",
-      "date": "avril 2012",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2012-04_beschneiungsanlagen_f.pdf"
-    },
-    {
-      "ref": "2012-04",
-      "titre": "Aide à l’exécution défrichements et compensation du défrichement",
-      "date": "avril 2012",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2012_2011/2012-04_rodungen_f.pdf"
-    },
-    {
-      "ref": "2012-02",
-      "titre": "Systèmes indicateurs et systèmes détecteurs de tension dans les stations de couplage HT",
-      "date": "février 2012",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2012_2011/2012-02_Spannungsanz_f.pdf"
-    },
-    {
-      "ref": "2012-02",
-      "titre": "Résistance au court-circuit des distributions principales existantes",
-      "date": "février 2012",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2012_2011/2012-02_Kurzschlussfestigkeit_f.pdf"
-    },
-    {
-      "ref": "2012-01",
-      "titre": "uvelle autorisation du signe de sécurité",
-      "date": "janvier 2012",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2012_2011/2012-01_SZ-Zertifikat_f.pdf"
-    },
-    {
-      "ref": "2011-12",
-      "titre": "obligatoire selon l’art. 16 de l’ordonnance sur le courant fort",
-      "date": "décembre 2011",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2012_2011/2011-12_Meldepflicht-Art.16_f.pdf"
-    },
-    {
-      "ref": "2011-11",
-      "titre": "Participation de l’ESTI dans les commissions internationales",
-      "date": "novembre 2011",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2012_2011/2011-11_ATEX_f.pdf"
-    },
-    {
-      "ref": "2011-09",
-      "titre": "Indépendance des contrôles",
-      "date": "septembre 2011",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2011-09_Unabhaengigkeit_Kontrollen_f.pdf"
-    },
-    {
-      "ref": "2011-08",
-      "titre": "Vos installation électriques sont-elles sûres?",
-      "date": "août 2011",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2011-08_NIV_f.pdf"
-    },
-    {
-      "ref": "2011-08",
-      "titre": "L’ESTI interdit la mise sur le marché de pointeurs laser dangereux",
-      "date": "août 2011",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2012_2011/2011-08_Laser_f.pdf"
-    },
-    {
-      "ref": "2011-07",
-      "titre": "Autorisation de raccordement",
-      "date": "juillet 2011",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2011-07_Anschlussbew_f.pdf"
-    },
-    {
-      "ref": "2011-05",
-      "titre": "Régime de l’autorisation pour travaux d’installation électrique Changement de pratique pour l’installation de conduits électriques",
-      "date": "mai 2011",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2011-05_Rohrinstalltationen_f.pdf"
-    },
-    {
-      "ref": "2011-05",
-      "titre": "Taux d’occupation des personnes du métier ainsi que des personnes porteuses de l’autorisation de contrôler",
-      "date": "mai 2011",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2011-05_Beschaeftigungsgrad_f.pdf"
-    },
-    {
-      "ref": "2011-05",
-      "titre": "Rapports de sécurité périodiques",
-      "date": "mai 2011",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2011-05_Sicherheitsnachweis_f.pdf"
-    },
-    {
-      "ref": "2011-04",
-      "titre": "Modification de l’ordonnance sur la réduction des risques liés aux produits chimiques",
-      "date": "avril 2011",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2011-04_ChemRRV_f.pdf"
-    },
-    {
-      "ref": "2011-03",
-      "titre": "Devoirs du titulaire d’une autorisation d’électricien d’exploitation",
-      "date": "mars 2011",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2011-03_Pflichten-BE_F.pdf"
-    },
-    {
-      "ref": "2011-02",
-      "titre": "La nouvelle loi sur la sécurité des produits",
-      "date": "février 2011",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2012_2011/2011-02_PrSG_F.pdf"
-    },
-    {
-      "ref": "Bulletin 42 (12/2010)",
-      "titre": "Procédure pour les contrats de servitude expirés",
-      "date": "décembre 2010",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2010_2009/42_bull12-10_Dienstbarkeit_F.pdf"
-    },
-    {
-      "ref": "Bulletin 40 (10/2010)",
-      "titre": "LED et son utilisation en remplacement de tube fluorescent",
-      "date": "octobre 2010",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2010_2009/40_bull10-10_LED_F.pdf"
-    },
-    {
-      "ref": "Bulletin 39 (10/2010)",
-      "titre": "L’amiante – le danger imperceptible",
-      "date": "octobre 2010",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2010_2009/39_bull10-10_Asbest_F.pdf"
-    },
-    {
-      "ref": "Bulletin 38 (09/2010)",
-      "titre": "L’emploi du dispositif de protection à courant différentiel-résiduel dans des installations existantes",
-      "date": "septembre 2010",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2010_2009/38_bull09_10_fehlerstrom_F.pdf"
-    },
-    {
-      "ref": "Bulletin 37 (08/2010)",
-      "titre": "Révision totale de l’ordonnance sur la compatibilité électromagnétique (OCEM)",
-      "date": "août 2010",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2010_2009/37_bull08_10_Totalrevision_VEMV_F.pdf"
-    },
-    {
-      "ref": "Bulletin 35 (05/2010)",
-      "titre": "uveau règlement concernant l’examen de raccordement de matériels électriques à basse tension",
-      "date": "mai 2010",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2010_2009/35_bull05-10_Regl-ASB_F.pdf"
-    },
-    {
-      "ref": "Bulletin 34 (05/2010)",
-      "titre": "Les tâches de l’ESTI lors d’accidents dus à l’électricité",
-      "date": "mai 2010",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2010_2009/34_bull05-10_Aufgaben_Unfaelle_F.pdf"
-    },
-    {
-      "ref": "Bulletin 31 (02/2010)",
-      "titre": "Contrôles sur les systèmes de compensation d’énergie réactive",
-      "date": "février 2010",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2010_2009/31__bull02_10_Blindstrom_d_f_i.pdf"
-    },
-    {
-      "ref": "Bulletin 28 (12/2009)",
-      "titre": "Les obligations des entreprises possédant leurs propres stations transformatrices qui fournissent de l’énergie électrique à des installations à basse tension par un résea…",
-      "date": "décembre 2009",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2010_2009/28_bull12-09_Pflichten_Trafo.pdf"
-    },
-    {
-      "ref": "Bulletin 27 (11/2009)",
-      "titre": "Modification de l’OPIE, de l’OLEI et l’ORNI",
-      "date": "novembre 2009",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2010_2009/27_bull11-09_VPeA_LeV_NISV.pdf"
-    },
-    {
-      "ref": "Bulletin 25 (09/2009)",
-      "titre": "Protection des oiseaux sur les lignes aériennes",
-      "date": "septembre 2009",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2010_2009/25_bull09_09_vogelschutz.pdf"
-    },
-    {
-      "ref": "Bulletin 23 (08/2009)",
-      "titre": "Ordonnance sur les installations électriques à basse tension (OIBT)",
-      "date": "août 2009",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2010_2009/23_bull08_09_niv_servicearb.pdf"
-    },
-    {
-      "ref": "Bulletin 24 (08/2009)",
-      "titre": "Autorisation générale d’installer pour une entreprise",
-      "date": "août 2009",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2010_2009/24_bull08_09_inst_bew.pdf"
-    },
-    {
-      "ref": "Bulletin 22 (07/2009)",
-      "titre": "Contrôle périodique d’installations de téléphonie mobile sur des mâts à haute tension et dans les sous-stations qui servent à l’alimentation électrique générale",
-      "date": "juillet 2009",
-      "url": "/inhalte/pdf/Uebrige/Franzoesisch/2010_2009/22_bull07_09_mobil.pdf"
-    },
-    {
-      "ref": "Bulletin 21 (06/2009)",
-      "titre": "Première vérification, contrôle final propre à l'entreprise et contrôle de réception d'installations électriques à basse tension",
-      "date": "juin 2009",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/2010_2009/21_bull06_09_baubegl.pdf"
-    },
-    {
-      "ref": "Bulletin 20 (05/2009)",
-      "titre": "Obligation d’approbation des plans d’installations à courant faible en zones EX",
-      "date": "mai 2009",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2010_2009/20_bull05-09_pv-ex.pdf"
-    },
-    {
-      "ref": "Bulletin 19 (04/2009)",
-      "titre": "Mise hors service des sectionneurs de charge à fusibles Gardy type BB et sectionneurs de charge type CC (Euro Jet) à entraînement mécanique à levier à anneau, d'ici fin 2…",
-      "date": "avril 2009",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2010_2009/19_bull04-09_gardy2.pdf"
-    },
-    {
-      "ref": "2008",
-      "titre": "Appareillage à haute tension : appareillage sous enveloppe métallique pour courant alternatif de tensions assignées supérieures à 1 kV et inférieures ou égales à 52 kV; c…",
-      "date": "2008",
-      "url": "/inhalte/pdf/Planvorlagen/PV_FR/2008_2007/bull15-08-HS-SG.pdf"
-    },
-    {
-      "ref": "Bulletin 16 (13/2008)",
-      "titre": "Emploi à temps partiel du responsable technique dans une entreprise d’installation électrique; conditions et contrôles",
-      "date": "2008",
-      "url": "/inhalte/pdf/NIV_I/Franzoesisch/Aeltere/16_bull13-08-teilzeit.pdf"
-    },
-    {
-      "ref": "Bulletin 12 (17/2007)",
-      "titre": "Les changements de normes et leurs conséquences à partir de l'exemple des matériels destinés à être utilisés en atmosphères explosibles",
-      "date": "2007",
-      "url": "/inhalte/pdf/MUB/Franzoesisch/2007/12_bull17-07.pdf"
-    }
+    {"ref":"2026-0401","titre":"Problématique de la mise à la terre des mâts à haute tension avec installations d’antennes","date":"avril 2026","url":"/inhalte/2026-0401_Masterdung_mit_Mobile_f.pdf"},
+    {"ref":"2026-0202","titre":"Démantèlement d'installations à haute tension et d'installations du réseau de distribution à basse tension","date":"février 2026","url":"/inhalte/2026-0202_Mitteilung_Rueckbau_von_Anlagen_FR.pdf"},
+    {"ref":"2026-0201","titre":"Procédure d'approbation des plans – Installations électriques du réseau de distribution à basse tension dans les zones protégées","date":"février 2026","url":"/inhalte/2026-0201_Mitteilung_Schutzgebiete_Niederspannungsverteilnetz_FR.pdf"},
+    {"ref":"2025-1202","titre":"Exceptions à l’obligation d’approbation des plans pour des modifications","date":"décembre 2025","url":"/inhalte/2025-1202_Mitteilung_VPeA_Revision_genehmigungsfreie_AEnderungen_FR.pdf"},
+    {"ref":"2025-1001","titre":"Nouveau numéro d'urgence 24h/24 pour signaler les accidents et les dommages","date":"octobre 2025","url":"/inhalte/2025-1001_ESTI-Mitteilung_Unfall-_und_Schadenmeldungen_fr.pdf"},
+    {"ref":"2025-0601","titre":"Harmonisation du droit suisse avec le règlement F-Gas de l'UE : Conséquences sur la mise sur le marché d'installations de commutation et d'appareils de commutation","date":"juin 2025","url":"/inhalte/2025-0601_Mitteilung_EU_F-Gas-Verordnung_FR.pdf"},
+    {"ref":"2025-0501","titre":"Dimensionnement correct des conducteurs de terre de stations transformatrices en cas de défaut","date":"mai 2025","url":"/inhalte/2025-0501_ESTI_Mitteilung_TS-Erdung_FR.pdf"},
+    {"ref":"2024-0802","titre":"Rapports de sécurité suite à une faillite ou en cas de cessation de la surveillance exercée par le responsable technique","date":"1 août 2024","url":"/inhalte/2024-0802_Rapports_de_securite_suite_a_une_faillite_ou_en_cas_de_cessation_de_la_surveillance_exercee_par_le_responsable_technique.pdf"},
+    {"ref":"2024-0801","titre":"Explications relatives à la directive 225 (schéma III d'assainissement)","date":"1 août 2024","url":"/inhalte/2024-0801_Explications_relatives_a_la_directive_225.pdf"},
+    {"ref":"2024-0701","titre":"uveau règlement concernant l'examen portant sur le raccordement de matériels électriques à basse tension","date":"1 juillet 2024","url":"/inhalte/TRA_FR_ESTI-Mitteilung_Art._15_NIV_Reglement_1.7.2024_zur_Publikation.pdf"},
+    {"ref":"2023-1202","titre":"Procédure d'approbation des plans (PAP) - autres étapes de numérisation","date":"18 décembre 2023","url":"/inhalte/pdf/Planvorlagen/PV_FR/2023-1202_Communication_Digitalisation.pdf"},
+    {"ref":"2023-0801","titre":"Statistiques ESTI des accidents 2022","date":"21 août 2023","url":"/inhalte/2023-0801_ESTI-Mitteilung_ESTI-Unfallstatistik_2022_FR.pdf"},
+    {"ref":"2023-0301","titre":"uveau règlement concernant l'examen portant sur le raccordement de matériels électriques à basse tension","date":"mars 2023","url":"/inhalte/2023-0301_Mitteilung_neues_Reglement_Art._15_NIV_f.pdf"},
+    {"ref":"2022-1101","titre":"Statistiques ESTI des accidents 2020 et 2021","date":"16 novembre 2022","url":"/inhalte/TRA_FR_2022-1101_ESTI-Mitteilung_ESTI-Unfallstatistik_2020_2021.pdf"},
+    {"ref":"2022-0501","titre":"uveau règlement concernant l'examen portant sur les travaux effectués sur des installations spéciales","date":"25 mai 2022","url":"/inhalte/2022-0501_ESTI-Mitteilung_Reglement_Pruefung_Art._14_NIV_def_FR.pdf"},
+    {"ref":"2021-0902","titre":"Etendue de l'autorisation accordée à des personnes physiques","date":"14 septembre 2021","url":"/inhalte/2021-0902_umfang_bewilligung_nat-personen_f_Am.pdf"},
+    {"ref":"2021-0901","titre":"Procédure d'approbation des plans pour les installations électriques Implication de l'OFT","date":"9 septembre 2021","url":"/inhalte/2021-0901_Communication_adaptation_integration_OFT_fr.pdf"},
+    {"ref":"2021-0701","titre":"Modification de l'ordonnance au 1er juillet 2021","date":"1 juillet 2021","url":"/inhalte/2021-0701_FR__Mitteilung_Verordnungsaenderung__1_.pdf"},
+    {"ref":"2021-0601","titre":"uveau règlement pour l'autorisation de raccordement","date":"8 juin 2021","url":"/inhalte/2021-0601_FR_Mitteilung_Reglement_Art._15NIV.pdf"},
+    {"ref":"2021-0301","titre":"Mise en œuvre et clarification de l'art. 9a OPIE - Exemptions de l'obligation d'approbation des plans","date":"31 mars 2021","url":"/inhalte/2021-0301_FR_Mitteilung_Umsetzung_und_Klarstellung_v._Art._9a_VAeA-Ausnahmen_von_der_Plangenehmigungspflicht.pdf"},
+    {"ref":"2020-0801","titre":"L'ESTI met en ligne la remise numérique des demandes d'approbation des plans","date":"31 août 2020","url":"/inhalte/2020-0801_Mitteilung_Plangenehmigungsgesuche_online_fr.pdf"},
+    {"ref":"2020-0702","titre":"Participation des cantons à la décision d'approbation des plan de l'ESTI","date":"29 juillet 2020","url":"/inhalte/2020-0702_Communication_d._cantons_a_la_decision_d_app._des_plans_fr_.pdf"},
+    {"ref":"2020-0701","titre":"Délais transitoires pour la série de normes SN 441011","date":"1 juillet 2020","url":"/inhalte/2020-0701_Mitteilung_SN_441011_IP55_ESTI_fr.pdf"},
+    {"ref":"2020-0602","titre":"Autorisations d'installer accordées à des entreprises","date":"29 juin 2020","url":"/inhalte/ESTI_Mitteilung_2020-0602_FR_Am-V2.pdf"},
+    {"ref":"2020-0601","titre":"Explications quant aux périodes de contrôle","date":"8 juin 2020","url":"/inhalte/2020-0601_Communication_periodes_de_controle__2.3.8_2.3.9_2.4.4.pdf"},
+    {"ref":"2020-0301","titre":"Adaptation de la période transitoire pour le chapitre 7.04.4.1.1.3 de la NIBT 2020 (Installations de chantiers)","date":"17 mars 2020","url":"/inhalte/pdf/NIV_I/Franzoesisch/2019-2020/2020-0301_angepasste_uebergangsfrist_baustellen_f.pdf"},
+    {"ref":"2019-1101","titre":"Ordonnance sur les installations à basse tension Rapport annuel 2018","date":"27 novembre 2019","url":"/inhalte/pdf/NIV_I/Jahresberichte_NIV/2019-1101_Jahresbericht_NIV_2018_f.pdf"},
+    {"ref":"2019-0702","titre":"Résistance aux défauts à la terre et aux courts-circuits : compléments et période transitoire concernant la commu-nication ESTI 11/2017","date":"22 juillet 2019","url":"/inhalte/pdf/Uebrige/Franzoesisch/2019/2019-0702_erd_kurzschlussfestigkeit_f_01.pdf"},
+    {"ref":"2019-0701","titre":"Regroupement dans le cadre de la consommation propre – OIBT","date":"18 juillet 2019","url":"/inhalte/pdf/NIV_I/Franzoesisch/2019-2020/2019-0701_zev_niv_f.pdf"},
+    {"ref":"2019-05","titre":"Point de transition entre le réseau de distribution et l’installation","date":"mai 2019","url":"/inhalte/pdf/NIV_I/Franzoesisch/2019-2020/2019-05_grenzstelle_verteilnetz_installation_f.pdf"},
+    {"ref":"2019-05","titre":"Travailler sur des réseaux de distribution en toute sécurité","date":"mai 2019","url":"/inhalte/pdf/Uebrige/Franzoesisch/2019/2019-05_sicheres_arbeiten_f.pdf"},
+    {"ref":"2019-03","titre":"Contrôle périodique en cas de changement de propriétaire","date":"mars 2019","url":"/inhalte/pdf/NIV_I/Franzoesisch/2019-2020/2019-03_handaenderung_f_3.pdf"},
+    {"ref":"2019-02","titre":"Les courants vagabonds dans les exploitations d’élevage","date":"février 2019","url":"/inhalte/pdf/MUB/Franzoesisch/2019/2019-02_streustroeme_tierhaltung_f.pdf"},
+    {"ref":"2019-02","titre":"Les courants vagabons dans les exploitations d'élevage","date":"février 2019","url":"/inhalte/2019-02_streustroeme_tierhaltung_f.pdf"},
+    {"ref":"2019-01","titre":"Procédure d’approbation des plans : actualisation des directives n° 235","date":"janvier 2019","url":"/inhalte/pdf/Planvorlagen/PV_FR/2019/2019-01-02_richtlinie-235_f.pdf"},
+    {"ref":"2018-11","titre":"Mesures de mise à la terre sur les supports des lignes aériennes HT","date":"novembre 2018","url":"/inhalte/pdf/Planvorlagen/PV_FR/2017_2018/2018-11_erdungsmessungen_hs_freileitungstragwerke_f.pdf"},
+    {"ref":"2018-09","titre":"Enveloppes à surpression interne","date":"septembre 2018","url":"/inhalte/pdf/MUB/Franzoesisch/2018-09_ueberdruckgekapselte_gehaeuse_f.pdf"},
+    {"ref":"2018-09","titre":"Invitation au contrôle périodique","date":"septembre 2018","url":"/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2018-09_aufforderung_periodische_kontrolle_f.pdf"},
+    {"ref":"2018-07","titre":"Remplacement des cellules MT de type WEVA","date":"juillet 2018","url":"/inhalte/pdf/MUB/Franzoesisch/2018-07-08_weva_f.pdf"},
+    {"ref":"2018-07","titre":"Révision totale de l’ordonnance du DETEC sur l’OIBT","date":"juillet 2018","url":"/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2018-07-08_totalrev_departementsverordnung_niv_f.pdf"},
+    {"ref":"2018-07","titre":"uvelle convention entre l’ElCom-ESTI-OFEN","date":"juillet 2018","url":"/inhalte/pdf/Planvorlagen/PV_FR/2017_2018/2018-07-08_vereinbarung_elcom_esti_bfe_f.pdf"},
+    {"ref":"2018-06","titre":"Révision partielle de l’OIBT : Périodes de contrôle","date":"juin 2018","url":"/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2018-06_teilrevision-niv_kontrollperioden_f.pdf"},
+    {"ref":"2018-06","titre":"Vente de matériel électrique et installations par des profanes","date":"juin 2018","url":"/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2018-06_verkauf_elektromaterial_f.pdf"},
+    {"ref":"2018-05","titre":"Formation continue pour les porteurs d’une autorisation","date":"mai 2018","url":"/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2018-05_weiterbildung_f.pdf"},
+    {"ref":"2018-04","titre":"Obligation d’annoncer et contrôles des installations PV","date":"avril 2018","url":"/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2018-04_meldepflicht_kontrollen_pv-Anlagen_f.pdf"},
+    {"ref":"2018-03","titre":"uveauté dans la procédure d’approbation des plans pour les installations de production d’énergie (IPE)","date":"mars 2018","url":"/inhalte/pdf/Planvorlagen/PV_FR/2017_2018/2018-03_neuerung_plangenehmigungsverfahren_eea_f.pdf"},
+    {"ref":"2018-01","titre":"Contrôle des titulaires d’une autorisation générale d’installer","date":"janvier 2018","url":"/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2018-01-02_ueberpruefung_inhaber_f.pdf"},
+    {"ref":"2018-01","titre":"Travaux d’entretien et de réparation sur des installations déterminées","date":"janvier 2018","url":"/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2018-01-02_service_reparaturarbeiten_f.pdf"},
+    {"ref":"2018-01","titre":"Réalisation d’installations de conduites tubulaires","date":"janvier 2018","url":"/inhalte/pdf/Planvorlagen/PV_FR/2017_2018/2018-01-02_rohranlagen_f.pdf"},
+    {"ref":"2018-01","titre":"Prescriptions de protection incendie","date":"janvier 2018","url":"/inhalte/pdf/Uebrige/Franzoesisch/2018_2017/2018-01-02_vorschriften_brandschutz_f.pdf"},
+    {"ref":"2017-12","titre":"Révision partielle de l’OIBT","date":"décembre 2017","url":"/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2017-12_teilrevision_niv_f_ver2.pdf"},
+    {"ref":"2017-12","titre":"Interruption de l’alimentation de courant au lieu du contrôle périodique","date":"décembre 2017","url":"/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2017-12_unterbrechen_stromzufuhr_f.pdf"},
+    {"ref":"2017-11","titre":"Recours de tiers concernant des décisions de reconnaissance","date":"novembre 2017","url":"/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2017-11_beschwerde_dritter_f.pdf"},
+    {"ref":"2017-11","titre":"Résistance aux défauts à la terre et aux courts-circuits","date":"novembre 2017","url":"/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2017-11_erd_kurzschlussfestigkeit2_f.pdf"},
+    {"ref":"2017-10","titre":"Prolongation de la durée de validité des approbations des plans / Remplace la communication du Bulletin 5/2016","date":"octobre 2017","url":"/inhalte/pdf/Planvorlagen/PV_FR/2017_2018/2017-10_verlaengerung-geltungsdauer-plangenehmigungen_f.pdf"},
+    {"ref":"2017-10","titre":"Remplacement de transformateurs","date":"octobre 2017","url":"/inhalte/pdf/Planvorlagen/PV_FR/2017_2018/2017-10_transformatoren_auswechseln_f.pdf"},
+    {"ref":"2017-0708","titre":"Certification avec le signe de sécurité","date":"juillet 2017","url":"/inhalte/pdf/MUB/Franzoesisch/2017-0708_zertifizierung-S__f.pdf"},
+    {"ref":"2017-04","titre":"Enrouleurs de câble et rallonges sur les chantiers","date":"avril 2017","url":"/inhalte/pdf/MUB/Franzoesisch/2017/2017-04_kabelrollen_f.pdf"},
+    {"ref":"2017-03","titre":"Contrôle final et contrôle de réception","date":"mars 2017","url":"/inhalte/pdf/NIV_I/Franzoesisch/2017_2018/2017-03_schlusskontrolle_f.pdf"},
+    {"ref":"2016-12","titre":"Installations électriques dans les zones de protection contre les explosions 0, 20, 1 et 21","date":"décembre 2016","url":"/inhalte/pdf/NIV_I/Franzoesisch/2016_2015/2016-12_inst_explosionsschutz_zonen_f_praez.pdf"},
+    {"ref":"2016-11","titre":"Stations de couplage et stations transformatrices hors de la zone à bâtir","date":"novembre 2016","url":"/inhalte/pdf/Planvorlagen/PV_FR/2016_2015/2016-11_bauzonen_f.pdf"},
+    {"ref":"2016-09","titre":"uveaux règlements pour les examens conformément à l’art. 21 OIBT","date":"septembre 2016","url":"/inhalte/pdf/NIV_I/Franzoesisch/2016_2015/2016-09_neue_reglemente_art21niv_f.pdf"},
+    {"ref":"2016-08","titre":"Dérogation","date":"août 2016","url":"/inhalte/pdf/NIV_I/Franzoesisch/2016_2015/2016-08_ausnahmebew_f.pdf"},
+    {"ref":"2016-08","titre":"Adaption de l’ORNI","date":"août 2016","url":"/inhalte/pdf/Planvorlagen/PV_FR/2016_2015/2016-08_anpassung_nisv_f.pdf"},
+    {"ref":"2016-08","titre":"Fin opérationnelle des prises type 12","date":"août 2016","url":"/inhalte/pdf/MUB/Franzoesisch/2016_2015/2016-08_steckdosen_typ12_DFI.pdf"},
+    {"ref":"2016-07","titre":"Mise en place d’installations photovoltaïques","date":"juillet 2016","url":"/inhalte/pdf/NIV_I/Franzoesisch/2016_2015/2016-07_inst_photovoltaikanlagen_kor_f.pdf"},
+    {"ref":"2016-07","titre":"Modification des autorisations d’installer et de contrôler","date":"juillet 2016","url":"/inhalte/pdf/NIV_I/Franzoesisch/2016_2015/2016-07_aenderung_inst_kontr_bewilligungen_f.pdf"},
+    {"ref":"2016-05","titre":"uvelles exigences concernant l’efficacité énergétique pour les transformateurs de distribution","date":"mai 2016","url":"/inhalte/pdf/Uebrige/Franzoesisch/2016_2015/2016-05_energieeff_trafo_f.pdf"},
+    {"ref":"2016-04","titre":"Procédure d’approbation des plans : mise à l’enquête publique","date":"avril 2016","url":"/inhalte/pdf/Planvorlagen/PV_FR/2016_2015/2016-04_pgv_f.pdf"},
+    {"ref":"2016-03","titre":"Fiches de données techniques (TD) pour les demandes d’approbation des plans","date":"mars 2016","url":"/inhalte/pdf/Planvorlagen/PV_FR/2016_2015/2016-03_td_f.pdf"},
+    {"ref":"2016-02","titre":"Autorisations limitées pour personnes formées à l’étranger","date":"février 2016","url":"/inhalte/pdf/NIV_I/Franzoesisch/2016_2015/2016-02_eingeschr-bew_ausland-ausbildung_F.pdf"},
+    {"ref":"2016-02","titre":"Le Conseil fédéral révise deux ordonnances dans le domaine de l’électricité","date":"février 2016","url":"/inhalte/pdf/MUB/Franzoesisch/2016_2015/2016-02_bundesrat_revidiert-2verordnungen_kontaktbox_f.pdf"},
+    {"ref":"2016-01","titre":"Rapport de sécurité périodique de titulaires de l’autorisation pour les travaux d’installation effectués à l’intérieur d’une entreprise","date":"janvier 2016","url":"/inhalte/pdf/NIV_I/Franzoesisch/2016_2015/2016-01_sina_f.pdf"},
+    {"ref":"2015-11","titre":"Construction de stations transformatrices hors de la zone à bâtir","date":"novembre 2015","url":"/inhalte/pdf/Planvorlagen/PV_FR/2016_2015/2015-11_trafo_ausser-bauzonen_f.pdf"},
+    {"ref":"2015-09","titre":"Concept de sécurité selon l’ordonnance sur le courant fort","date":"septembre 2015","url":"/inhalte/pdf/Uebrige/Franzoesisch/2016_2015/2015-09_siko_stv_f.pdf"},
+    {"ref":"2015-08","titre":"Campagne Suva «Electricité en toute sécurité»","date":"août 2015","url":"/inhalte/pdf/Uebrige/Franzoesisch/2016_2015/2015-08_suva_kamp_f.pdf"},
+    {"ref":"2015-05","titre":"Types de propriété et invitation au contrôle périodique","date":"mai 2015","url":"/inhalte/pdf/NIV_I/Franzoesisch/2016_2015/2015-05_eigentum_f.pdf"},
+    {"ref":"2015-03","titre":"Reconnaissance des qualifications professionnelles en électrotechnique étrangères","date":"mars 2015","url":"/inhalte/pdf/NIV_I/Franzoesisch/2016_2015/2015-03_anerkennung_EU-EFTA_f.pdf"},
+    {"ref":"2015-02","titre":"Protection anticorrosion des supports en acier","date":"février 2015","url":"/inhalte/pdf/Planvorlagen/PV_FR/2016_2015/2015-02_korr-schutz_cercl-air_f.pdf"},
+    {"ref":"2015-02","titre":"Tubes LED de remplacement","date":"février 2015","url":"/inhalte/pdf/MUB/Franzoesisch/2016_2015/2015-02_retrofit-led_f.pdf"},
+    {"ref":"2015-01","titre":"Assurer contre le réenclenchement","date":"janvier 2015","url":"/inhalte/pdf/Uebrige/Franzoesisch/2016_2015/2015-01_wiedereinschalten_f.pdf"},
+    {"ref":"2014-12","titre":"Autorisation temporaire","date":"décembre 2014","url":"/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2014-12_ersatzbew_f.pdf"},
+    {"ref":"2014-11","titre":"Surveillance technique efficace des travaux d’installation","date":"novembre 2014","url":"/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2014-11_wirksame_aufsicht_f.pdf"},
+    {"ref":"2014-09","titre":"Installation ou matériel électrique?","date":"septembre 2014","url":"/inhalte/pdf/MUB/Franzoesisch/2014_2013/2014-09_installation-erzeugnis_f.pdf"},
+    {"ref":"2014-08","titre":"Aide à l’exécution Défrichements et compensation du défrichement","date":"août 2014","url":"/inhalte/pdf/Planvorlagen/PV_FR/2014_2013/2014-08_vollzugshilfe_rodungen_f.pdf"},
+    {"ref":"2014-08","titre":"Coûts des demandes d’approbation des plans","date":"août 2014","url":"/inhalte/pdf/Planvorlagen/PV_FR/2014_2013/2014-08_kosten_pv_f.pdf"},
+    {"ref":"2014-07","titre":"Installations photovoltaïques Plug & Play Limitation de la puissance des installations photovoltaïques à brancher librement","date":"juillet 2014","url":"/inhalte/pdf/MUB/Franzoesisch/2014_2013/2014-07_plugplay_f.pdf"},
+    {"ref":"2014-06","titre":"Installations électriques par des prestataires de services de l’UE/AELE","date":"juin 2014","url":"/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2014-06_EU-EFTA_f.pdf"},
+    {"ref":"2014-05","titre":"Application de la campagne «Electricité en toute sécurité» 5 + 5 règles vitales pour les travaux sur ou à proximité d’installations électriques","date":"mai 2014","url":"/inhalte/pdf/Uebrige/Franzoesisch/2014_2013/2014-05_vollzug_kampagne_f.pdf"},
+    {"ref":"2014-03","titre":"Accélération de la procédure d’approbation des plans","date":"mars 2014","url":"/inhalte/pdf/Planvorlagen/PV_FR/2014_2013/2014-03_beschleunigung_pv_f.pdf"},
+    {"ref":"2014-02","titre":"Procédures pénales administratives / Transfert de compétences en matière d’instruction","date":"février 2014","url":"/inhalte/pdf/Uebrige/Franzoesisch/2014_2013/2014-02_verw-strafverfahren_f.pdf"},
+    {"ref":"2014-01","titre":"Installations photovoltaïques","date":"janvier 2014","url":"/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2014-01_fotovoltaik_aktualisiert2016_f.pdf"},
+    {"ref":"2013-11","titre":"Contrôles sporadiques d’installations électriques à basse tension","date":"novembre 2013","url":"/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2013-11_stichproben_f.pdf"},
+    {"ref":"2013-09","titre":"Contrôle des conditions requises pour l’autorisation Entretien technique comme moyen légalement autorisé","date":"septembre 2013","url":"/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2013-09_fachgespraech_f.pdf"},
+    {"ref":"2013-08","titre":"Pas de rapport de sécurité - Que doit faire l’exploitant du réseau ?","date":"août 2013","url":"/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2013-08_kein_sina_f.pdf"},
+    {"ref":"2013-07","titre":"Contrôle périodique des installations électriques - Aucune atteinte grave à la sphère privée","date":"juillet 2013","url":"/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2013-07_zutrittsrecht_f.pdf"},
+    {"ref":"2013-05","titre":"Pas de publicité avec les armoiries de la Confédération","date":"mai 2013","url":"/inhalte/pdf/Uebrige/Franzoesisch/2014_2013/2013-05_werbung_f.pdf"},
+    {"ref":"2013-03","titre":"Autorisations d’installer limitées","date":"mars 2013","url":"/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2013-03_eingeschr_instbew_f.pdf"},
+    {"ref":"2013-03","titre":"Prises de courant pour usages domestiques et analogues","date":"mars 2013","url":"/inhalte/pdf/MUB/Franzoesisch/2014_2013/2013-03_stecker_steckdosen_f.pdf"},
+    {"ref":"2013-02","titre":"Propriétaire? Rapport de sécurité !","date":"février 2013","url":"/inhalte/pdf/NIV_I/Franzoesisch/2014_2013/2013-02_sina_f.pdf"},
+    {"ref":"2013-01","titre":"Matériels avec label S+ signe de sécurité désormais sur Internet","date":"janvier 2013","url":"/inhalte/pdf/MUB/Franzoesisch/2014_2013/2013-01_bs_internet_f.pdf"},
+    {"ref":"2013-01","titre":"Sécurité des installations électriques des bateaux","date":"janvier 2013","url":"/inhalte/pdf/Uebrige/Franzoesisch/2014_2013/2013-01_we_schiffe_f.pdf"},
+    {"ref":"2012-12","titre":"Premiers secours en cas d’accident électrique","date":"décembre 2012","url":"/inhalte/pdf/Uebrige/Franzoesisch/2012_2011/2012-12_erstehilfe_f.pdf"},
+    {"ref":"2012-11","titre":"Réenclenchement de lignes à haute tension","date":"novembre 2012","url":"/inhalte/pdf/Uebrige/Franzoesisch/2012_2011/2012-11_wiedereinschalten_f.pdf"},
+    {"ref":"2012-09","titre":"Indépendance des contrôles selon l’OIBT","date":"septembre 2012","url":"/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2012-09_unabhaengigkeit_kontr_f.pdf"},
+    {"ref":"2012-08","titre":"Autorisation générale d’installer, « sous-traitance » et location de services","date":"août 2012","url":"/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2012-08_unterakkord_f.pdf"},
+    {"ref":"2012-08","titre":"Fonctions de surveillance et de contrôle de l’ESTI","date":"août 2012","url":"/inhalte/pdf/Uebrige/Franzoesisch/2012_2011/2012-08_aufsicht-kontrollaufgaben_f.pdf"},
+    {"ref":"2012-08","titre":"Sécurité sismique de la distribution d’énergie électrique en Suisse","date":"août 2012","url":"/inhalte/pdf/Uebrige/Franzoesisch/2012_2011/2012-08_erdbebensicherung_f.pdf"},
+    {"ref":"2012-05","titre":"Pas de suppression de défauts par les organes de contrôle","date":"mai 2012","url":"/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2012-05_kontrollorgane_f.pdf"},
+    {"ref":"2012-04","titre":"Périodes de contrôle d’installations d’enneigement","date":"avril 2012","url":"/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2012-04_beschneiungsanlagen_f.pdf"},
+    {"ref":"2012-04","titre":"Aide à l’exécution défrichements et compensation du défrichement","date":"avril 2012","url":"/inhalte/pdf/Planvorlagen/PV_FR/2012_2011/2012-04_rodungen_f.pdf"},
+    {"ref":"2012-02","titre":"Systèmes indicateurs et systèmes détecteurs de tension dans les stations de couplage HT","date":"février 2012","url":"/inhalte/pdf/MUB/Franzoesisch/2012_2011/2012-02_Spannungsanz_f.pdf"},
+    {"ref":"2012-02","titre":"Résistance au court-circuit des distributions principales existantes","date":"février 2012","url":"/inhalte/pdf/Uebrige/Franzoesisch/2012_2011/2012-02_Kurzschlussfestigkeit_f.pdf"},
+    {"ref":"2012-01","titre":"uvelle autorisation du signe de sécurité","date":"janvier 2012","url":"/inhalte/pdf/MUB/Franzoesisch/2012_2011/2012-01_SZ-Zertifikat_f.pdf"},
+    {"ref":"2011-12","titre":"obligatoire selon l’art. 16 de l’ordonnance sur le courant fort","date":"décembre 2011","url":"/inhalte/pdf/Uebrige/Franzoesisch/2012_2011/2011-12_Meldepflicht-Art.16_f.pdf"},
+    {"ref":"2011-11","titre":"Participation de l’ESTI dans les commissions internationales","date":"novembre 2011","url":"/inhalte/pdf/MUB/Franzoesisch/2012_2011/2011-11_ATEX_f.pdf"},
+    {"ref":"2011-09","titre":"Indépendance des contrôles","date":"septembre 2011","url":"/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2011-09_Unabhaengigkeit_Kontrollen_f.pdf"},
+    {"ref":"2011-08","titre":"Vos installation électriques sont-elles sûres?","date":"août 2011","url":"/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2011-08_NIV_f.pdf"},
+    {"ref":"2011-08","titre":"L’ESTI interdit la mise sur le marché de pointeurs laser dangereux","date":"août 2011","url":"/inhalte/pdf/MUB/Franzoesisch/2012_2011/2011-08_Laser_f.pdf"},
+    {"ref":"2011-07","titre":"Autorisation de raccordement","date":"juillet 2011","url":"/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2011-07_Anschlussbew_f.pdf"},
+    {"ref":"2011-05","titre":"Régime de l’autorisation pour travaux d’installation électrique Changement de pratique pour l’installation de conduits électriques","date":"mai 2011","url":"/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2011-05_Rohrinstalltationen_f.pdf"},
+    {"ref":"2011-05","titre":"Taux d’occupation des personnes du métier ainsi que des personnes porteuses de l’autorisation de contrôler","date":"mai 2011","url":"/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2011-05_Beschaeftigungsgrad_f.pdf"},
+    {"ref":"2011-05","titre":"Rapports de sécurité périodiques","date":"mai 2011","url":"/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2011-05_Sicherheitsnachweis_f.pdf"},
+    {"ref":"2011-04","titre":"Modification de l’ordonnance sur la réduction des risques liés aux produits chimiques","date":"avril 2011","url":"/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2011-04_ChemRRV_f.pdf"},
+    {"ref":"2011-03","titre":"Devoirs du titulaire d’une autorisation d’électricien d’exploitation","date":"mars 2011","url":"/inhalte/pdf/NIV_I/Franzoesisch/2012_2011/2011-03_Pflichten-BE_F.pdf"},
+    {"ref":"2011-02","titre":"La nouvelle loi sur la sécurité des produits","date":"février 2011","url":"/inhalte/pdf/MUB/Franzoesisch/2012_2011/2011-02_PrSG_F.pdf"},
+    {"ref":"Bulletin 42 (12/2010)","titre":"Procédure pour les contrats de servitude expirés","date":"décembre 2010","url":"/inhalte/pdf/Planvorlagen/PV_FR/2010_2009/42_bull12-10_Dienstbarkeit_F.pdf"},
+    {"ref":"Bulletin 40 (10/2010)","titre":"LED et son utilisation en remplacement de tube fluorescent","date":"octobre 2010","url":"/inhalte/pdf/MUB/Franzoesisch/2010_2009/40_bull10-10_LED_F.pdf"},
+    {"ref":"Bulletin 39 (10/2010)","titre":"L’amiante – le danger imperceptible","date":"octobre 2010","url":"/inhalte/pdf/Uebrige/Franzoesisch/2010_2009/39_bull10-10_Asbest_F.pdf"},
+    {"ref":"Bulletin 38 (09/2010)","titre":"L’emploi du dispositif de protection à courant différentiel-résiduel dans des installations existantes","date":"septembre 2010","url":"/inhalte/pdf/NIV_I/Franzoesisch/2010_2009/38_bull09_10_fehlerstrom_F.pdf"},
+    {"ref":"Bulletin 37 (08/2010)","titre":"Révision totale de l’ordonnance sur la compatibilité électromagnétique (OCEM)","date":"août 2010","url":"/inhalte/pdf/MUB/Franzoesisch/2010_2009/37_bull08_10_Totalrevision_VEMV_F.pdf"},
+    {"ref":"Bulletin 35 (05/2010)","titre":"uveau règlement concernant l’examen de raccordement de matériels électriques à basse tension","date":"mai 2010","url":"/inhalte/pdf/NIV_I/Franzoesisch/2010_2009/35_bull05-10_Regl-ASB_F.pdf"},
+    {"ref":"Bulletin 34 (05/2010)","titre":"Les tâches de l’ESTI lors d’accidents dus à l’électricité","date":"mai 2010","url":"/inhalte/pdf/Uebrige/Franzoesisch/2010_2009/34_bull05-10_Aufgaben_Unfaelle_F.pdf"},
+    {"ref":"Bulletin 31 (02/2010)","titre":"Contrôles sur les systèmes de compensation d’énergie réactive","date":"février 2010","url":"/inhalte/pdf/NIV_I/Franzoesisch/2010_2009/31__bull02_10_Blindstrom_d_f_i.pdf"},
+    {"ref":"Bulletin 28 (12/2009)","titre":"Les obligations des entreprises possédant leurs propres stations transformatrices qui fournissent de l’énergie électrique à des installations à basse tension par un résea…","date":"décembre 2009","url":"/inhalte/pdf/Uebrige/Franzoesisch/2010_2009/28_bull12-09_Pflichten_Trafo.pdf"},
+    {"ref":"Bulletin 27 (11/2009)","titre":"Modification de l’OPIE, de l’OLEI et l’ORNI","date":"novembre 2009","url":"/inhalte/pdf/Planvorlagen/PV_FR/2010_2009/27_bull11-09_VPeA_LeV_NISV.pdf"},
+    {"ref":"Bulletin 25 (09/2009)","titre":"Protection des oiseaux sur les lignes aériennes","date":"septembre 2009","url":"/inhalte/pdf/Planvorlagen/PV_FR/2010_2009/25_bull09_09_vogelschutz.pdf"},
+    {"ref":"Bulletin 23 (08/2009)","titre":"Ordonnance sur les installations électriques à basse tension (OIBT)","date":"août 2009","url":"/inhalte/pdf/NIV_I/Franzoesisch/2010_2009/23_bull08_09_niv_servicearb.pdf"},
+    {"ref":"Bulletin 24 (08/2009)","titre":"Autorisation générale d’installer pour une entreprise","date":"août 2009","url":"/inhalte/pdf/NIV_I/Franzoesisch/2010_2009/24_bull08_09_inst_bew.pdf"},
+    {"ref":"Bulletin 22 (07/2009)","titre":"Contrôle périodique d’installations de téléphonie mobile sur des mâts à haute tension et dans les sous-stations qui servent à l’alimentation électrique générale","date":"juillet 2009","url":"/inhalte/pdf/Uebrige/Franzoesisch/2010_2009/22_bull07_09_mobil.pdf"},
+    {"ref":"Bulletin 21 (06/2009)","titre":"Première vérification, contrôle final propre à l'entreprise et contrôle de réception d'installations électriques à basse tension","date":"juin 2009","url":"/inhalte/pdf/NIV_I/Franzoesisch/2010_2009/21_bull06_09_baubegl.pdf"},
+    {"ref":"Bulletin 20 (05/2009)","titre":"Obligation d’approbation des plans d’installations à courant faible en zones EX","date":"mai 2009","url":"/inhalte/pdf/Planvorlagen/PV_FR/2010_2009/20_bull05-09_pv-ex.pdf"},
+    {"ref":"Bulletin 19 (04/2009)","titre":"Mise hors service des sectionneurs de charge à fusibles Gardy type BB et sectionneurs de charge type CC (Euro Jet) à entraînement mécanique à levier à anneau, d'ici fin 2…","date":"avril 2009","url":"/inhalte/pdf/MUB/Franzoesisch/2010_2009/19_bull04-09_gardy2.pdf"},
+    {"ref":"2008","titre":"Appareillage à haute tension : appareillage sous enveloppe métallique pour courant alternatif de tensions assignées supérieures à 1 kV et inférieures ou égales à 52 kV; c…","date":"2008","url":"/inhalte/pdf/Planvorlagen/PV_FR/2008_2007/bull15-08-HS-SG.pdf"},
+    {"ref":"Bulletin 16 (13/2008)","titre":"Emploi à temps partiel du responsable technique dans une entreprise d’installation électrique; conditions et contrôles","date":"2008","url":"/inhalte/pdf/NIV_I/Franzoesisch/Aeltere/16_bull13-08-teilzeit.pdf"},
+    {"ref":"Bulletin 12 (17/2007)","titre":"Les changements de normes et leurs conséquences à partir de l'exemple des matériels destinés à être utilisés en atmosphères explosibles","date":"2007","url":"/inhalte/pdf/MUB/Franzoesisch/2007/12_bull17-07.pdf"}
   ]
 }
