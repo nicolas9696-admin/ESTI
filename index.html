@@ -93,6 +93,7 @@
   }
   .icone svg{width:58px;height:58px;display:block}
   .num{font-size:12px;font-weight:700;color:var(--rouge);letter-spacing:.6px;text-transform:uppercase}
+  .maj{font-size:12px;color:var(--texte-doux);margin-top:3px}
   .titre{font-size:17px;font-weight:700;margin:4px 0 10px}
   .mots{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
   .mot{font-size:11px;background:#f0f2f5;color:var(--texte-doux);padding:3px 8px;border-radius:6px}
@@ -117,7 +118,6 @@
   <h1>Référencement des directives ESTI</h1>
   <p>Retrouvez rapidement chaque directive grâce à son icône thématique et à la recherche par mots-clés, puis accédez au document officiel.</p>
   <div class="statut">
-    <span>✅ Dernière mise à jour&nbsp;: <b id="lastUpdate">—</b></span>
     <span>🔄 Dernière vérification&nbsp;: <b id="lastCheck">—</b></span>
     <span>📅 Prochaine vérification&nbsp;: <b id="nextCheck">—</b></span>
   </div>
@@ -236,9 +236,22 @@ function surligner(texte,termes){
   return out;
 }
 
+/* Convertit le code de version ESTI "MMAA" (ex. "0621") en date lisible (ex. "juin 2021").
+   Année sur 2 chiffres : <=50 -> 20xx, sinon 19xx (gère "1199" = novembre 1999). */
+const MOIS=["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"];
+function verEnDate(ver){
+  if(!/^\d{4}$/.test(ver||"")) return "";
+  const mois=parseInt(ver.slice(0,2),10);
+  if(mois<1||mois>12) return "";
+  const aa=parseInt(ver.slice(2),10);
+  const annee=aa<=50?2000+aa:1900+aa;
+  return MOIS[mois-1]+" "+annee;
+}
+
 function carteHTML(d,termes){
   const lien=d.url?BASE+d.url:"";
   const titreH=surligner(d.titre,termes);
+  const dateMaj=verEnDate(d.ver);
   const motsH=d.mots.map(m=>`<span class="mot">${surligner(m,termes)}</span>`).join("");
   const bouton=lien
     ? `<a class="bouton" href="${lien}" target="_blank" rel="noopener">Ouvrir la directive
@@ -247,6 +260,7 @@ function carteHTML(d,termes){
   return `<article class="carte">
     <div class="icone">${ICONES[d.icone]||ICONES.document}</div>
     <div class="num">ESTI ${d.num} · v.${d.ver}</div>
+    ${dateMaj?`<div class="maj">📅 Mise à jour&nbsp;: ${dateMaj}</div>`:""}
     <h2 class="titre">${titreH}</h2>
     <div class="mots">${motsH}</div>
     ${bouton}
@@ -296,7 +310,6 @@ function fmtDate(iso){
   return d.toLocaleString("fr-CH",{weekday:"long",day:"2-digit",month:"long",year:"numeric",hour:"2-digit",minute:"2-digit",timeZone:"Europe/Zurich"});
 }
 function majStatut(){
-  document.getElementById("lastUpdate").textContent=META&&META.lastUpdate?fmtDate(META.lastUpdate):"—";
   document.getElementById("lastCheck").textContent=META&&META.lastCheck?fmtDate(META.lastCheck):"—";
   document.getElementById("nextCheck").textContent=META&&META.nextCheck?fmtDate(META.nextCheck):"—";
 }
