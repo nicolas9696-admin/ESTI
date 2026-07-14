@@ -1,17 +1,31 @@
 # Site de référencement des directives ESTI
 
-Site statique qui liste les directives ESTI avec icônes thématiques, recherche par
-mots-clés et lien vers chaque PDF officiel. Un script **Google Apps Script** contrôle
-automatiquement le site ESTI **chaque dimanche à midi**, compare les versions et
-**republie le site sur GitHub** si une nouvelle version paraît.
+Site statique qui liste les **directives** ESTI (avec icônes thématiques) et les
+**communications** ESTI, avec recherche par mots-clés et lien vers chaque PDF officiel.
+Le site est organisé en deux onglets : **Directives** et **Communications**.
+Un script **Google Apps Script** contrôle automatiquement le site ESTI
+**chaque dimanche à midi**, compare les versions et **republie le site sur GitHub**
+si une nouvelle version — ou une nouvelle communication — paraît.
 
 ## Fichiers
 
 | Fichier      | Rôle |
 |--------------|------|
-| `index.html` | Le site. Lit ses données depuis `data.json` (repli intégré si absent). |
-| `data.json`  | Données live : directives + dates de vérification. **Mis à jour par le script.** |
+| `index.html` | Le site (onglets Directives / Communications). Lit ses données depuis `data.json` (repli intégré si absent). |
+| `data.json`  | Données live : `directives` + `communications` + dates de vérification. **Mis à jour par le script.** |
 | `Code.gs`    | Script Google Apps Script : contrôle hebdomadaire + republication GitHub. |
+
+### Directives et communications
+
+- Chaque **directive** affiche sa date de révision, dérivée du code de version ESTI
+  (`MMAA`, ex. `0621` → juin 2021).
+- Chaque **communication** est identifiée par sa référence (`AAAA-NNNN`, ex. `2025-0501`)
+  et sa date de publication.
+- Le script détecte les **nouvelles communications** de l'année en cours et de l'année
+  précédente (pages annuelles `esti-communication/AAAA`) : une nouvelle référence est
+  ajoutée automatiquement avec un **titre à compléter** dans `data.json`, et signalée par
+  e-mail. Certaines communications au nom de fichier atypique (sans la référence dans le
+  nom du PDF) doivent être ajoutées manuellement.
 
 En haut du site s'affichent **« Dernière vérification »** et **« Prochaine vérification »**,
 alimentées par `data.json` (`meta.lastCheck` / `meta.nextCheck`).
